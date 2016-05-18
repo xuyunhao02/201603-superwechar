@@ -1350,13 +1350,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_centered com.easemob.chatuidemo:centered}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_fillColor com.easemob.chatuidemo:fillColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_pageColor com.easemob.chatuidemo:pageColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_radius com.easemob.chatuidemo:radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_snap com.easemob.chatuidemo:snap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_strokeColor com.easemob.chatuidemo:strokeColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.easemob.chatuidemo:strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_centered cn.ucai.superwechat:centered}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_fillColor cn.ucai.superwechat:fillColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_pageColor cn.ucai.superwechat:pageColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_radius cn.ucai.superwechat:radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_snap cn.ucai.superwechat:snap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeColor cn.ucai.superwechat:strokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeWidth cn.ucai.superwechat:strokeWidth}</code></td><td></td></tr>
            </table>
            @see #CirclePageIndicator_android_background
            @see #CirclePageIndicator_android_orientation
@@ -1386,7 +1386,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CirclePageIndicator_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#centered}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#centered}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -1396,11 +1396,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:centered
+          @attr name cn.ucai.superwechat:centered
         */
         public static final int CirclePageIndicator_centered = 2;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#fillColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#fillColor}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -1411,11 +1411,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:fillColor
+          @attr name cn.ucai.superwechat:fillColor
         */
         public static final int CirclePageIndicator_fillColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#pageColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#pageColor}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -1426,11 +1426,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:pageColor
+          @attr name cn.ucai.superwechat:pageColor
         */
         public static final int CirclePageIndicator_pageColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#radius}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#radius}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -1442,11 +1442,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:radius
+          @attr name cn.ucai.superwechat:radius
         */
         public static final int CirclePageIndicator_radius = 6;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#snap}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#snap}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -1456,11 +1456,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:snap
+          @attr name cn.ucai.superwechat:snap
         */
         public static final int CirclePageIndicator_snap = 7;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#strokeColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#strokeColor}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -1471,11 +1471,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:strokeColor
+          @attr name cn.ucai.superwechat:strokeColor
         */
         public static final int CirclePageIndicator_strokeColor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#strokeWidth}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#strokeWidth}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -1487,7 +1487,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:strokeWidth
+          @attr name cn.ucai.superwechat:strokeWidth
         */
         public static final int CirclePageIndicator_strokeWidth = 3;
         /** Attributes that can be used with a Emojicon.
@@ -1496,9 +1496,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Emojicon_emojiconSize com.easemob.chatuidemo:emojiconSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Emojicon_emojiconTextLength com.easemob.chatuidemo:emojiconTextLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #Emojicon_emojiconTextStart com.easemob.chatuidemo:emojiconTextStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Emojicon_emojiconSize cn.ucai.superwechat:emojiconSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Emojicon_emojiconTextLength cn.ucai.superwechat:emojiconTextLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #Emojicon_emojiconTextStart cn.ucai.superwechat:emojiconTextStart}</code></td><td></td></tr>
            </table>
            @see #Emojicon_emojiconSize
            @see #Emojicon_emojiconTextLength
@@ -1508,7 +1508,7 @@ containing a value of this type.
             0x7f010009, 0x7f01000a, 0x7f01000b
         };
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#emojiconSize}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#emojiconSize}
           attribute's value can be found in the {@link #Emojicon} array.
 
 
@@ -1520,11 +1520,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:emojiconSize
+          @attr name cn.ucai.superwechat:emojiconSize
         */
         public static final int Emojicon_emojiconSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#emojiconTextLength}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#emojiconTextLength}
           attribute's value can be found in the {@link #Emojicon} array.
 
 
@@ -1534,11 +1534,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:emojiconTextLength
+          @attr name cn.ucai.superwechat:emojiconTextLength
         */
         public static final int Emojicon_emojiconTextLength = 2;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#emojiconTextStart}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#emojiconTextStart}
           attribute's value can be found in the {@link #Emojicon} array.
 
 
@@ -1548,7 +1548,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:emojiconTextStart
+          @attr name cn.ucai.superwechat:emojiconTextStart
         */
         public static final int Emojicon_emojiconTextStart = 1;
         /** Attributes that can be used with a LinePageIndicator.
@@ -1558,12 +1558,12 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #LinePageIndicator_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_centered com.easemob.chatuidemo:centered}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_gapWidth com.easemob.chatuidemo:gapWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_lineWidth com.easemob.chatuidemo:lineWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_selectedColor com.easemob.chatuidemo:selectedColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_strokeWidth com.easemob.chatuidemo:strokeWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_unselectedColor com.easemob.chatuidemo:unselectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_centered cn.ucai.superwechat:centered}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_gapWidth cn.ucai.superwechat:gapWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_lineWidth cn.ucai.superwechat:lineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_selectedColor cn.ucai.superwechat:selectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_strokeWidth cn.ucai.superwechat:strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_unselectedColor cn.ucai.superwechat:unselectedColor}</code></td><td></td></tr>
            </table>
            @see #LinePageIndicator_android_background
            @see #LinePageIndicator_centered
@@ -1584,7 +1584,7 @@ containing a value of this type.
         */
         public static final int LinePageIndicator_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#centered}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#centered}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -1594,11 +1594,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:centered
+          @attr name cn.ucai.superwechat:centered
         */
         public static final int LinePageIndicator_centered = 1;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#gapWidth}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#gapWidth}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -1610,11 +1610,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:gapWidth
+          @attr name cn.ucai.superwechat:gapWidth
         */
         public static final int LinePageIndicator_gapWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#lineWidth}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#lineWidth}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -1626,11 +1626,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:lineWidth
+          @attr name cn.ucai.superwechat:lineWidth
         */
         public static final int LinePageIndicator_lineWidth = 5;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#selectedColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#selectedColor}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -1641,11 +1641,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:selectedColor
+          @attr name cn.ucai.superwechat:selectedColor
         */
         public static final int LinePageIndicator_selectedColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#strokeWidth}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#strokeWidth}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -1657,11 +1657,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:strokeWidth
+          @attr name cn.ucai.superwechat:strokeWidth
         */
         public static final int LinePageIndicator_strokeWidth = 3;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#unselectedColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#unselectedColor}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -1672,7 +1672,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:unselectedColor
+          @attr name cn.ucai.superwechat:unselectedColor
         */
         public static final int LinePageIndicator_unselectedColor = 4;
         /** Attributes that can be used with a TitlePageIndicator.
@@ -1684,18 +1684,18 @@ containing a value of this type.
            <tr><td><code>{@link #TitlePageIndicator_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #TitlePageIndicator_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #TitlePageIndicator_android_textSize android:textSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_clipPadding com.easemob.chatuidemo:clipPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerColor com.easemob.chatuidemo:footerColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight com.easemob.chatuidemo:footerIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle com.easemob.chatuidemo:footerIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding com.easemob.chatuidemo:footerIndicatorUnderlinePadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerLineHeight com.easemob.chatuidemo:footerLineHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerPadding com.easemob.chatuidemo:footerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_linePosition com.easemob.chatuidemo:linePosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_selectedBold com.easemob.chatuidemo:selectedBold}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_selectedColor com.easemob.chatuidemo:selectedColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_titlePadding com.easemob.chatuidemo:titlePadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_topPadding com.easemob.chatuidemo:topPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_clipPadding cn.ucai.superwechat:clipPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerColor cn.ucai.superwechat:footerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight cn.ucai.superwechat:footerIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle cn.ucai.superwechat:footerIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding cn.ucai.superwechat:footerIndicatorUnderlinePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerLineHeight cn.ucai.superwechat:footerLineHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerPadding cn.ucai.superwechat:footerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_linePosition cn.ucai.superwechat:linePosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_selectedBold cn.ucai.superwechat:selectedBold}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_selectedColor cn.ucai.superwechat:selectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_titlePadding cn.ucai.superwechat:titlePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_topPadding cn.ucai.superwechat:topPadding}</code></td><td></td></tr>
            </table>
            @see #TitlePageIndicator_android_background
            @see #TitlePageIndicator_android_textColor
@@ -1738,7 +1738,7 @@ containing a value of this type.
         */
         public static final int TitlePageIndicator_android_textSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#clipPadding}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#clipPadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1750,11 +1750,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:clipPadding
+          @attr name cn.ucai.superwechat:clipPadding
         */
         public static final int TitlePageIndicator_clipPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#footerColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#footerColor}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1765,11 +1765,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:footerColor
+          @attr name cn.ucai.superwechat:footerColor
         */
         public static final int TitlePageIndicator_footerColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#footerIndicatorHeight}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#footerIndicatorHeight}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1781,11 +1781,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:footerIndicatorHeight
+          @attr name cn.ucai.superwechat:footerIndicatorHeight
         */
         public static final int TitlePageIndicator_footerIndicatorHeight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#footerIndicatorStyle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#footerIndicatorStyle}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1799,11 +1799,11 @@ containing a value of this type.
 <tr><td><code>triangle</code></td><td>1</td><td></td></tr>
 <tr><td><code>underline</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.easemob.chatuidemo:footerIndicatorStyle
+          @attr name cn.ucai.superwechat:footerIndicatorStyle
         */
         public static final int TitlePageIndicator_footerIndicatorStyle = 7;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#footerIndicatorUnderlinePadding}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#footerIndicatorUnderlinePadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1815,11 +1815,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:footerIndicatorUnderlinePadding
+          @attr name cn.ucai.superwechat:footerIndicatorUnderlinePadding
         */
         public static final int TitlePageIndicator_footerIndicatorUnderlinePadding = 9;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#footerLineHeight}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#footerLineHeight}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1831,11 +1831,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:footerLineHeight
+          @attr name cn.ucai.superwechat:footerLineHeight
         */
         public static final int TitlePageIndicator_footerLineHeight = 6;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#footerPadding}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#footerPadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1847,11 +1847,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:footerPadding
+          @attr name cn.ucai.superwechat:footerPadding
         */
         public static final int TitlePageIndicator_footerPadding = 10;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#linePosition}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#linePosition}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1864,11 +1864,11 @@ containing a value of this type.
 <tr><td><code>bottom</code></td><td>0</td><td></td></tr>
 <tr><td><code>top</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.easemob.chatuidemo:linePosition
+          @attr name cn.ucai.superwechat:linePosition
         */
         public static final int TitlePageIndicator_linePosition = 11;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#selectedBold}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#selectedBold}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1878,11 +1878,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:selectedBold
+          @attr name cn.ucai.superwechat:selectedBold
         */
         public static final int TitlePageIndicator_selectedBold = 12;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#selectedColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#selectedColor}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1893,11 +1893,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:selectedColor
+          @attr name cn.ucai.superwechat:selectedColor
         */
         public static final int TitlePageIndicator_selectedColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#titlePadding}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#titlePadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1909,11 +1909,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:titlePadding
+          @attr name cn.ucai.superwechat:titlePadding
         */
         public static final int TitlePageIndicator_titlePadding = 13;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#topPadding}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#topPadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -1925,7 +1925,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:topPadding
+          @attr name cn.ucai.superwechat:topPadding
         */
         public static final int TitlePageIndicator_topPadding = 14;
         /** Attributes that can be used with a UnderlinePageIndicator.
@@ -1935,10 +1935,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #UnderlinePageIndicator_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay com.easemob.chatuidemo:fadeDelay}</code></td><td></td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fadeLength com.easemob.chatuidemo:fadeLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fades com.easemob.chatuidemo:fades}</code></td><td></td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_selectedColor com.easemob.chatuidemo:selectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay cn.ucai.superwechat:fadeDelay}</code></td><td></td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fadeLength cn.ucai.superwechat:fadeLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fades cn.ucai.superwechat:fades}</code></td><td></td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_selectedColor cn.ucai.superwechat:selectedColor}</code></td><td></td></tr>
            </table>
            @see #UnderlinePageIndicator_android_background
            @see #UnderlinePageIndicator_fadeDelay
@@ -1957,7 +1957,7 @@ containing a value of this type.
         */
         public static final int UnderlinePageIndicator_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#fadeDelay}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#fadeDelay}
           attribute's value can be found in the {@link #UnderlinePageIndicator} array.
 
 
@@ -1967,11 +1967,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:fadeDelay
+          @attr name cn.ucai.superwechat:fadeDelay
         */
         public static final int UnderlinePageIndicator_fadeDelay = 3;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#fadeLength}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#fadeLength}
           attribute's value can be found in the {@link #UnderlinePageIndicator} array.
 
 
@@ -1981,11 +1981,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:fadeLength
+          @attr name cn.ucai.superwechat:fadeLength
         */
         public static final int UnderlinePageIndicator_fadeLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#fades}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#fades}
           attribute's value can be found in the {@link #UnderlinePageIndicator} array.
 
 
@@ -1995,11 +1995,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:fades
+          @attr name cn.ucai.superwechat:fades
         */
         public static final int UnderlinePageIndicator_fades = 2;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#selectedColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#selectedColor}
           attribute's value can be found in the {@link #UnderlinePageIndicator} array.
 
 
@@ -2010,7 +2010,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.chatuidemo:selectedColor
+          @attr name cn.ucai.superwechat:selectedColor
         */
         public static final int UnderlinePageIndicator_selectedColor = 1;
         /** Attributes that can be used with a ViewPagerIndicator.
@@ -2019,12 +2019,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.easemob.chatuidemo:vpiCirclePageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.easemob.chatuidemo:vpiIconPageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.easemob.chatuidemo:vpiLinePageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.easemob.chatuidemo:vpiTabPageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.easemob.chatuidemo:vpiTitlePageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.easemob.chatuidemo:vpiUnderlinePageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle cn.ucai.superwechat:vpiCirclePageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle cn.ucai.superwechat:vpiIconPageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle cn.ucai.superwechat:vpiLinePageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle cn.ucai.superwechat:vpiTabPageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle cn.ucai.superwechat:vpiTitlePageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle cn.ucai.superwechat:vpiUnderlinePageIndicatorStyle}</code></td><td></td></tr>
            </table>
            @see #ViewPagerIndicator_vpiCirclePageIndicatorStyle
            @see #ViewPagerIndicator_vpiIconPageIndicatorStyle
@@ -2038,63 +2038,63 @@ containing a value of this type.
             0x7f010020, 0x7f010021
         };
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#vpiCirclePageIndicatorStyle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#vpiCirclePageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.chatuidemo:vpiCirclePageIndicatorStyle
+          @attr name cn.ucai.superwechat:vpiCirclePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#vpiIconPageIndicatorStyle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#vpiIconPageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.chatuidemo:vpiIconPageIndicatorStyle
+          @attr name cn.ucai.superwechat:vpiIconPageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiIconPageIndicatorStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#vpiLinePageIndicatorStyle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#vpiLinePageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.chatuidemo:vpiLinePageIndicatorStyle
+          @attr name cn.ucai.superwechat:vpiLinePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiLinePageIndicatorStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#vpiTabPageIndicatorStyle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#vpiTabPageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.chatuidemo:vpiTabPageIndicatorStyle
+          @attr name cn.ucai.superwechat:vpiTabPageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#vpiTitlePageIndicatorStyle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#vpiTitlePageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.chatuidemo:vpiTitlePageIndicatorStyle
+          @attr name cn.ucai.superwechat:vpiTitlePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiTitlePageIndicatorStyle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.easemob.chatuidemo.R.attr#vpiUnderlinePageIndicatorStyle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#vpiUnderlinePageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.chatuidemo:vpiUnderlinePageIndicatorStyle
+          @attr name cn.ucai.superwechat:vpiUnderlinePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle = 5;
     };

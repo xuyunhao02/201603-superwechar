@@ -48,12 +48,12 @@
         "source": "D:\\superwechar\\res\\drawable\\red_circle.xml"
     },
     {
-        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
-        "source": "D:\\superwechar\\res\\drawable\\timestampe_bg.xml"
-    },
-    {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_bg.xml",
         "source": "D:\\superwechar\\res\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
+        "source": "D:\\superwechar\\res\\drawable\\timestampe_bg.xml"
     },
     {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable\\chatto_bg.xml",

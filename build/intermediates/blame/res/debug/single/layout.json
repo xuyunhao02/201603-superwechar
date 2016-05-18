@@ -208,12 +208,12 @@
         "source": "D:\\superwechar\\res\\layout\\activity_video_call.xml"
     },
     {
-        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\layout\\main_init_view.xml",
-        "source": "D:\\superwechar\\res\\layout\\main_init_view.xml"
-    },
-    {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_friends_msg.xml",
         "source": "D:\\superwechar\\res\\layout\\activity_new_friends_msg.xml"
+    },
+    {
+        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\layout\\main_init_view.xml",
+        "source": "D:\\superwechar\\res\\layout\\main_init_view.xml"
     },
     {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chatroom.xml",
@@ -280,12 +280,12 @@
         "source": "D:\\superwechar\\res\\layout\\row_sent_video.xml"
     },
     {
-        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_blacklist.xml",
-        "source": "D:\\superwechar\\res\\layout\\activity_group_blacklist.xml"
-    },
-    {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit.xml",
         "source": "D:\\superwechar\\res\\layout\\activity_edit.xml"
+    },
+    {
+        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_blacklist.xml",
+        "source": "D:\\superwechar\\res\\layout\\activity_group_blacklist.xml"
     },
     {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_details.xml",
