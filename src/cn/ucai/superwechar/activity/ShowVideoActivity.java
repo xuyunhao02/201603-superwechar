@@ -1,9 +1,5 @@
 package cn.ucai.superwechar.activity;
 
-import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -17,9 +13,14 @@ import android.widget.RelativeLayout;
 
 import com.easemob.EMCallBack;
 import com.easemob.chat.EMChatManager;
-import cn.easemob.chatuidemo.R;
 import com.easemob.util.EMLog;
 import com.easemob.util.PathUtil;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
+
+import cn.ucai.superwechar.R;
 
 /**
  * 展示视频内容

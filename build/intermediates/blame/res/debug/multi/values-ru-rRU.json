@@ -203,6 +203,766 @@
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
                     "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 7193,
+                        "endColumn": 56,
+                        "endOffset": 7245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 724,
+                    "endColumn": 64,
+                    "endOffset": 784
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 7250,
+                        "endColumn": 64,
+                        "endOffset": 7310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 789,
+                    "endColumn": 67,
+                    "endOffset": 852
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 7315,
+                        "endColumn": 67,
+                        "endOffset": 7378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 857,
+                    "endColumn": 70,
+                    "endOffset": 923
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 7383,
+                        "endColumn": 70,
+                        "endOffset": 7449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 928,
+                    "endColumn": 53,
+                    "endOffset": 977
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 7454,
+                        "endColumn": 53,
+                        "endOffset": 7503
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 982,
+                    "endColumn": 58,
+                    "endOffset": 1036
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 7508,
+                        "endColumn": 58,
+                        "endOffset": 7562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1041,
+                    "endColumn": 55,
+                    "endOffset": 1092
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 7567,
+                        "endColumn": 55,
+                        "endOffset": 7618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1097,
+                    "endColumn": 56,
+                    "endOffset": 1149
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 7623,
+                        "endColumn": 56,
+                        "endOffset": 7675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1154,
+                    "endColumn": 52,
+                    "endOffset": 1202
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 7680,
+                        "endColumn": 52,
+                        "endOffset": 7728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1207,
+                    "endColumn": 60,
+                    "endOffset": 1263
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 7733,
+                        "endColumn": 60,
+                        "endOffset": 7789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1268,
+                    "endColumn": 57,
+                    "endOffset": 1321
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 7794,
+                        "endColumn": 57,
+                        "endOffset": 7847
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1326,
+                    "endColumn": 57,
+                    "endOffset": 1379
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 7852,
+                        "endColumn": 57,
+                        "endOffset": 7905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1384,
+                    "endColumn": 61,
+                    "endOffset": 1441
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 7910,
+                        "endColumn": 61,
+                        "endOffset": 7967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1446,
+                    "endColumn": 64,
+                    "endOffset": 1506
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 7972,
+                        "endColumn": 64,
+                        "endOffset": 8032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1511,
+                    "endColumn": 52,
+                    "endOffset": 1559
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 8037,
+                        "endColumn": 52,
+                        "endOffset": 8085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1564,
+                    "endColumn": 55,
+                    "endOffset": 1615
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 8090,
+                        "endColumn": 55,
+                        "endOffset": 8141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1620,
+                    "endColumn": 65,
+                    "endOffset": 1681
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 8146,
+                        "endColumn": 65,
+                        "endOffset": 8207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1686,
+                    "endColumn": 62,
+                    "endOffset": 1744
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 8212,
+                        "endColumn": 62,
+                        "endOffset": 8270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1749,
+                    "endColumn": 67,
+                    "endOffset": 1812
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 8275,
+                        "endColumn": 67,
+                        "endOffset": 8338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1817,
+                    "endColumn": 64,
+                    "endOffset": 1877
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 8343,
+                        "endColumn": 64,
+                        "endOffset": 8403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1882,
+                    "endColumn": 60,
+                    "endOffset": 1938
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 8408,
+                        "endColumn": 60,
+                        "endOffset": 8464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1943,
+                    "endColumn": 57,
+                    "endOffset": 1996
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 8469,
+                        "endColumn": 57,
+                        "endOffset": 8522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2001,
+                    "endColumn": 57,
+                    "endOffset": 2054
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 8527,
+                        "endColumn": 57,
+                        "endOffset": 8580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2059,
+                    "endColumn": 60,
+                    "endOffset": 2115
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 8585,
+                        "endColumn": 60,
+                        "endOffset": 8641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2120,
+                    "endColumn": 53,
+                    "endOffset": 2169
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 8646,
+                        "endColumn": 53,
+                        "endOffset": 8695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2174,
+                    "endColumn": 54,
+                    "endOffset": 2224
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 8700,
+                        "endColumn": 54,
+                        "endOffset": 8750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2229,
+                    "endColumn": 64,
+                    "endOffset": 2289
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 8755,
+                        "endColumn": 64,
+                        "endOffset": 8815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2294,
+                    "endColumn": 61,
+                    "endOffset": 2351
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 8820,
+                        "endColumn": 61,
+                        "endOffset": 8877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2356,
+                    "endColumn": 58,
+                    "endOffset": 2410
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 8882,
+                        "endColumn": 58,
+                        "endOffset": 8936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2415,
+                    "endColumn": 68,
+                    "endOffset": 2479
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 8941,
+                        "endColumn": 68,
+                        "endOffset": 9005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2484,
+                    "endColumn": 65,
+                    "endOffset": 2545
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 9010,
+                        "endColumn": 65,
+                        "endOffset": 9071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2550,
+                    "endColumn": 63,
+                    "endOffset": 2609
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 9076,
+                        "endColumn": 63,
+                        "endOffset": 9135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2614,
+                    "endColumn": 60,
+                    "endOffset": 2670
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 9140,
+                        "endColumn": 60,
+                        "endOffset": 9196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2675,
+                    "endColumn": 63,
+                    "endOffset": 2734
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 9201,
+                        "endColumn": 63,
+                        "endOffset": 9260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2739,
+                    "endColumn": 60,
+                    "endOffset": 2795
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 9265,
+                        "endColumn": 60,
+                        "endOffset": 9321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2800,
+                    "endColumn": 58,
+                    "endOffset": 2854
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 6957,
+                        "endColumn": 58,
+                        "endOffset": 7011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2859,
+                    "endColumn": 55,
+                    "endOffset": 2910
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 7016,
+                        "endColumn": 55,
+                        "endOffset": 7067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2915,
+                    "endColumn": 61,
+                    "endOffset": 2972
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 7072,
+                        "endColumn": 61,
+                        "endOffset": 7129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2977,
+                    "endColumn": 58,
+                    "endOffset": 3031
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 7134,
+                        "endColumn": 58,
+                        "endOffset": 7188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3036,
+                    "endColumn": 46,
+                    "endOffset": 3078
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 9326,
+                        "endColumn": 46,
+                        "endOffset": 9368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3083,
+                    "endColumn": 56,
+                    "endOffset": 3135
+                },
+                "from": {
+                    "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
+                    "position": {
                         "startLine": 80,
                         "startColumn": 4,
                         "startOffset": 4839,
@@ -213,11 +973,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 724,
+                    "startOffset": 3140,
                     "endColumn": 57,
-                    "endOffset": 777
+                    "endOffset": 3193
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -232,11 +992,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 782,
+                    "startOffset": 3198,
                     "endColumn": 90,
-                    "endOffset": 868
+                    "endOffset": 3284
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -251,11 +1011,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 873,
+                    "startOffset": 3289,
                     "endColumn": 88,
-                    "endOffset": 957
+                    "endOffset": 3373
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -270,11 +1030,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 962,
+                    "startOffset": 3378,
                     "endColumn": 70,
-                    "endOffset": 1028
+                    "endOffset": 3444
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -289,11 +1049,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 1033,
+                    "startOffset": 3449,
                     "endColumn": 79,
-                    "endOffset": 1108
+                    "endOffset": 3524
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -308,11 +1068,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 1113,
+                    "startOffset": 3529,
                     "endColumn": 58,
-                    "endOffset": 1167
+                    "endOffset": 3583
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -327,11 +1087,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 1172,
+                    "startOffset": 3588,
                     "endColumn": 72,
-                    "endOffset": 1240
+                    "endOffset": 3656
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -346,11 +1106,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 1245,
+                    "startOffset": 3661,
                     "endColumn": 56,
-                    "endOffset": 1297
+                    "endOffset": 3713
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -365,11 +1125,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 1302,
+                    "startOffset": 3718,
                     "endColumn": 69,
-                    "endOffset": 1367
+                    "endOffset": 3783
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -384,11 +1144,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 1372,
+                    "startOffset": 3788,
                     "endColumn": 56,
-                    "endOffset": 1424
+                    "endOffset": 3840
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -403,11 +1163,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 1429,
+                    "startOffset": 3845,
                     "endColumn": 49,
-                    "endOffset": 1474
+                    "endOffset": 3890
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -422,11 +1182,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 1479,
+                    "startOffset": 3895,
                     "endColumn": 42,
-                    "endOffset": 1517
+                    "endOffset": 3933
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -441,11 +1201,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 1522,
+                    "startOffset": 3938,
                     "endColumn": 43,
-                    "endOffset": 1561
+                    "endOffset": 3977
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -460,11 +1220,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 1566,
+                    "startOffset": 3982,
                     "endColumn": 60,
-                    "endOffset": 1622
+                    "endOffset": 4038
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -479,11 +1239,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 1627,
+                    "startOffset": 4043,
                     "endColumn": 48,
-                    "endOffset": 1671
+                    "endOffset": 4087
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -498,11 +1258,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 1676,
+                    "startOffset": 4092,
                     "endColumn": 58,
-                    "endOffset": 1730
+                    "endOffset": 4146
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -517,11 +1277,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 1735,
+                    "startOffset": 4151,
                     "endColumn": 54,
-                    "endOffset": 1785
+                    "endOffset": 4201
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -536,11 +1296,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 1790,
+                    "startOffset": 4206,
                     "endColumn": 47,
-                    "endOffset": 1833
+                    "endOffset": 4249
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -555,11 +1315,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 1838,
+                    "startOffset": 4254,
                     "endColumn": 56,
-                    "endOffset": 1890
+                    "endOffset": 4306
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -574,11 +1334,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 1895,
+                    "startOffset": 4311,
                     "endColumn": 61,
-                    "endOffset": 1952
+                    "endOffset": 4368
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -593,11 +1353,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 1957,
+                    "startOffset": 4373,
                     "endColumn": 38,
-                    "endOffset": 1991
+                    "endOffset": 4407
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -612,11 +1372,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 1996,
+                    "startOffset": 4412,
                     "endColumn": 52,
-                    "endOffset": 2044
+                    "endOffset": 4460
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -631,11 +1391,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 2049,
+                    "startOffset": 4465,
                     "endColumn": 51,
-                    "endOffset": 2096
+                    "endOffset": 4512
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -650,11 +1410,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 2101,
+                    "startOffset": 4517,
                     "endColumn": 52,
-                    "endOffset": 2149
+                    "endOffset": 4565
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -669,11 +1429,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 2154,
+                    "startOffset": 4570,
                     "endColumn": 47,
-                    "endOffset": 2197
+                    "endOffset": 4613
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -688,11 +1448,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 2202,
+                    "startOffset": 4618,
                     "endColumn": 51,
-                    "endOffset": 2249
+                    "endOffset": 4665
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -707,11 +1467,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 2254,
+                    "startOffset": 4670,
                     "endColumn": 47,
-                    "endOffset": 2297
+                    "endOffset": 4713
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -726,11 +1486,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 2302,
+                    "startOffset": 4718,
                     "endColumn": 57,
-                    "endOffset": 2355
+                    "endOffset": 4771
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -745,11 +1505,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 2360,
+                    "startOffset": 4776,
                     "endColumn": 49,
-                    "endOffset": 2405
+                    "endOffset": 4821
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -764,11 +1524,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 2410,
+                    "startOffset": 4826,
                     "endColumn": 47,
-                    "endOffset": 2453
+                    "endOffset": 4869
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -783,11 +1543,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 2458,
+                    "startOffset": 4874,
                     "endColumn": 47,
-                    "endOffset": 2501
+                    "endOffset": 4917
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -802,11 +1562,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 2506,
+                    "startOffset": 4922,
                     "endColumn": 78,
-                    "endOffset": 2580
+                    "endOffset": 4996
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -821,11 +1581,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 2585,
+                    "startOffset": 5001,
                     "endColumn": 41,
-                    "endOffset": 2622
+                    "endOffset": 5038
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -840,11 +1600,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 2627,
+                    "startOffset": 5043,
                     "endColumn": 53,
-                    "endOffset": 2676
+                    "endOffset": 5092
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -859,11 +1619,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 2681,
+                    "startOffset": 5097,
                     "endColumn": 89,
-                    "endOffset": 2766
+                    "endOffset": 5182
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -878,11 +1638,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 2771,
+                    "startOffset": 5187,
                     "endColumn": 57,
-                    "endOffset": 2824
+                    "endOffset": 5240
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -897,11 +1657,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 2829,
+                    "startOffset": 5245,
                     "endColumn": 89,
-                    "endOffset": 2914
+                    "endOffset": 5330
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -916,11 +1676,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 2919,
+                    "startOffset": 5335,
                     "endColumn": 94,
-                    "endOffset": 3009
+                    "endOffset": 5425
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -935,11 +1695,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 3014,
+                    "startOffset": 5430,
                     "endColumn": 62,
-                    "endOffset": 3072
+                    "endOffset": 5488
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -954,11 +1714,11 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 3077,
+                    "startOffset": 5493,
                     "endColumn": 106,
-                    "endOffset": 3179
+                    "endOffset": 5595
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -973,11 +1733,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 3184,
+                    "startOffset": 5600,
                     "endColumn": 125,
-                    "endOffset": 3305
+                    "endOffset": 5721
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -992,11 +1752,11 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 3310,
+                    "startOffset": 5726,
                     "endColumn": 43,
-                    "endOffset": 3349
+                    "endOffset": 5765
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1011,11 +1771,11 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 3354,
+                    "startOffset": 5770,
                     "endColumn": 61,
-                    "endOffset": 3411
+                    "endOffset": 5827
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1030,11 +1790,11 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 3416,
+                    "startOffset": 5832,
                     "endColumn": 42,
-                    "endOffset": 3454
+                    "endOffset": 5870
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1049,11 +1809,11 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 3459,
+                    "startOffset": 5875,
                     "endColumn": 60,
-                    "endOffset": 3515
+                    "endOffset": 5931
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1068,11 +1828,11 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 3520,
+                    "startOffset": 5936,
                     "endColumn": 54,
-                    "endOffset": 3570
+                    "endOffset": 5986
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1087,11 +1847,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 3575,
+                    "startOffset": 5991,
                     "endColumn": 68,
-                    "endOffset": 3639
+                    "endOffset": 6055
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1106,11 +1866,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 3644,
+                    "startOffset": 6060,
                     "endColumn": 53,
-                    "endOffset": 3693
+                    "endOffset": 6109
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1125,11 +1885,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 3698,
+                    "startOffset": 6114,
                     "endColumn": 56,
-                    "endOffset": 3750
+                    "endOffset": 6166
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1144,11 +1904,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 3755,
+                    "startOffset": 6171,
                     "endColumn": 90,
-                    "endOffset": 3841
+                    "endOffset": 6257
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1163,11 +1923,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 3846,
+                    "startOffset": 6262,
                     "endColumn": 85,
-                    "endOffset": 3927
+                    "endOffset": 6343
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1182,11 +1942,11 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 3932,
+                    "startOffset": 6348,
                     "endColumn": 73,
-                    "endOffset": 4001
+                    "endOffset": 6417
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1201,11 +1961,11 @@
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 4006,
+                    "startOffset": 6422,
                     "endColumn": 44,
-                    "endOffset": 4046
+                    "endOffset": 6462
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1220,11 +1980,11 @@
             },
             {
                 "to": {
-                    "startLine": 66,
+                    "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 4051,
+                    "startOffset": 6467,
                     "endColumn": 90,
-                    "endOffset": 4137
+                    "endOffset": 6553
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1239,11 +1999,11 @@
             },
             {
                 "to": {
-                    "startLine": 67,
+                    "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 4142,
+                    "startOffset": 6558,
                     "endColumn": 43,
-                    "endOffset": 4181
+                    "endOffset": 6597
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1258,11 +2018,11 @@
             },
             {
                 "to": {
-                    "startLine": 68,
+                    "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 4186,
+                    "startOffset": 6602,
                     "endColumn": 45,
-                    "endOffset": 4227
+                    "endOffset": 6643
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1277,11 +2037,11 @@
             },
             {
                 "to": {
-                    "startLine": 69,
+                    "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 4232,
+                    "startOffset": 6648,
                     "endColumn": 42,
-                    "endOffset": 4270
+                    "endOffset": 6686
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1296,11 +2056,11 @@
             },
             {
                 "to": {
-                    "startLine": 70,
+                    "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 4275,
+                    "startOffset": 6691,
                     "endColumn": 47,
-                    "endOffset": 4318
+                    "endOffset": 6734
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1315,11 +2075,11 @@
             },
             {
                 "to": {
-                    "startLine": 71,
+                    "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 4323,
+                    "startOffset": 6739,
                     "endColumn": 45,
-                    "endOffset": 4364
+                    "endOffset": 6780
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1334,11 +2094,11 @@
             },
             {
                 "to": {
-                    "startLine": 72,
+                    "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 4369,
+                    "startOffset": 6785,
                     "endColumn": 90,
-                    "endOffset": 4455
+                    "endOffset": 6871
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1353,11 +2113,11 @@
             },
             {
                 "to": {
-                    "startLine": 73,
+                    "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 4460,
+                    "startOffset": 6876,
                     "endColumn": 72,
-                    "endOffset": 4528
+                    "endOffset": 6944
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1372,11 +2132,11 @@
             },
             {
                 "to": {
-                    "startLine": 74,
+                    "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 4533,
+                    "startOffset": 6949,
                     "endColumn": 64,
-                    "endOffset": 4593
+                    "endOffset": 7009
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1391,11 +2151,11 @@
             },
             {
                 "to": {
-                    "startLine": 75,
+                    "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 4598,
+                    "startOffset": 7014,
                     "endColumn": 61,
-                    "endOffset": 4655
+                    "endOffset": 7071
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1410,11 +2170,11 @@
             },
             {
                 "to": {
-                    "startLine": 76,
+                    "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 4660,
+                    "startOffset": 7076,
                     "endColumn": 39,
-                    "endOffset": 4695
+                    "endOffset": 7111
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1429,11 +2189,11 @@
             },
             {
                 "to": {
-                    "startLine": 77,
+                    "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 4700,
+                    "startOffset": 7116,
                     "endColumn": 40,
-                    "endOffset": 4736
+                    "endOffset": 7152
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1448,11 +2208,11 @@
             },
             {
                 "to": {
-                    "startLine": 78,
+                    "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 4741,
+                    "startOffset": 7157,
                     "endColumn": 127,
-                    "endOffset": 4864
+                    "endOffset": 7280
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1467,11 +2227,11 @@
             },
             {
                 "to": {
-                    "startLine": 79,
+                    "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 4869,
+                    "startOffset": 7285,
                     "endColumn": 80,
-                    "endOffset": 4945
+                    "endOffset": 7361
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1486,11 +2246,11 @@
             },
             {
                 "to": {
-                    "startLine": 80,
+                    "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 4950,
+                    "startOffset": 7366,
                     "endColumn": 42,
-                    "endOffset": 4988
+                    "endOffset": 7404
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1505,11 +2265,11 @@
             },
             {
                 "to": {
-                    "startLine": 81,
+                    "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 4993,
+                    "startOffset": 7409,
                     "endColumn": 67,
-                    "endOffset": 5056
+                    "endOffset": 7472
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1524,11 +2284,11 @@
             },
             {
                 "to": {
-                    "startLine": 82,
+                    "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 5061,
+                    "startOffset": 7477,
                     "endColumn": 118,
-                    "endOffset": 5175
+                    "endOffset": 7591
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1543,11 +2303,11 @@
             },
             {
                 "to": {
-                    "startLine": 83,
+                    "startLine": 123,
                     "startColumn": 4,
-                    "startOffset": 5180,
+                    "startOffset": 7596,
                     "endColumn": 47,
-                    "endOffset": 5223
+                    "endOffset": 7639
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1562,11 +2322,11 @@
             },
             {
                 "to": {
-                    "startLine": 84,
+                    "startLine": 124,
                     "startColumn": 4,
-                    "startOffset": 5228,
+                    "startOffset": 7644,
                     "endColumn": 82,
-                    "endOffset": 5306
+                    "endOffset": 7722
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1581,11 +2341,11 @@
             },
             {
                 "to": {
-                    "startLine": 85,
+                    "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 5311,
+                    "startOffset": 7727,
                     "endColumn": 52,
-                    "endOffset": 5359
+                    "endOffset": 7775
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1600,11 +2360,11 @@
             },
             {
                 "to": {
-                    "startLine": 86,
+                    "startLine": 126,
                     "startColumn": 4,
-                    "startOffset": 5364,
+                    "startOffset": 7780,
                     "endColumn": 64,
-                    "endOffset": 5424
+                    "endOffset": 7840
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1619,11 +2379,11 @@
             },
             {
                 "to": {
-                    "startLine": 87,
+                    "startLine": 127,
                     "startColumn": 4,
-                    "startOffset": 5429,
+                    "startOffset": 7845,
                     "endColumn": 70,
-                    "endOffset": 5495
+                    "endOffset": 7911
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1638,11 +2398,11 @@
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 5500,
+                    "startOffset": 7916,
                     "endColumn": 43,
-                    "endOffset": 5539
+                    "endOffset": 7955
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1657,11 +2417,11 @@
             },
             {
                 "to": {
-                    "startLine": 89,
+                    "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 5544,
+                    "startOffset": 7960,
                     "endColumn": 49,
-                    "endOffset": 5589
+                    "endOffset": 8005
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1676,11 +2436,11 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 5594,
+                    "startOffset": 8010,
                     "endColumn": 45,
-                    "endOffset": 5635
+                    "endOffset": 8051
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1695,11 +2455,11 @@
             },
             {
                 "to": {
-                    "startLine": 91,
+                    "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 5640,
+                    "startOffset": 8056,
                     "endColumn": 100,
-                    "endOffset": 5736
+                    "endOffset": 8152
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1714,11 +2474,11 @@
             },
             {
                 "to": {
-                    "startLine": 92,
+                    "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 5741,
+                    "startOffset": 8157,
                     "endColumn": 57,
-                    "endOffset": 5794
+                    "endOffset": 8210
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1733,11 +2493,11 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 5799,
+                    "startOffset": 8215,
                     "endColumn": 48,
-                    "endOffset": 5843
+                    "endOffset": 8259
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1752,11 +2512,11 @@
             },
             {
                 "to": {
-                    "startLine": 94,
+                    "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 5848,
+                    "startOffset": 8264,
                     "endColumn": 81,
-                    "endOffset": 5925
+                    "endOffset": 8341
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1771,11 +2531,11 @@
             },
             {
                 "to": {
-                    "startLine": 95,
+                    "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 5930,
+                    "startOffset": 8346,
                     "endColumn": 53,
-                    "endOffset": 5979
+                    "endOffset": 8395
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1790,11 +2550,11 @@
             },
             {
                 "to": {
-                    "startLine": 96,
+                    "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 5984,
+                    "startOffset": 8400,
                     "endColumn": 42,
-                    "endOffset": 6022
+                    "endOffset": 8438
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1809,11 +2569,11 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 6027,
+                    "startOffset": 8443,
                     "endColumn": 40,
-                    "endOffset": 6063
+                    "endOffset": 8479
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1828,11 +2588,11 @@
             },
             {
                 "to": {
-                    "startLine": 98,
+                    "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 6068,
+                    "startOffset": 8484,
                     "endColumn": 47,
-                    "endOffset": 6111
+                    "endOffset": 8527
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1847,11 +2607,11 @@
             },
             {
                 "to": {
-                    "startLine": 99,
+                    "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 6116,
+                    "startOffset": 8532,
                     "endColumn": 67,
-                    "endOffset": 6179
+                    "endOffset": 8595
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1866,11 +2626,11 @@
             },
             {
                 "to": {
-                    "startLine": 100,
+                    "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 6184,
+                    "startOffset": 8600,
                     "endColumn": 68,
-                    "endOffset": 6248
+                    "endOffset": 8664
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1885,11 +2645,11 @@
             },
             {
                 "to": {
-                    "startLine": 101,
+                    "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 6253,
+                    "startOffset": 8669,
                     "endColumn": 42,
-                    "endOffset": 6291
+                    "endOffset": 8707
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1904,11 +2664,11 @@
             },
             {
                 "to": {
-                    "startLine": 102,
+                    "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 6296,
+                    "startOffset": 8712,
                     "endColumn": 41,
-                    "endOffset": 6333
+                    "endOffset": 8749
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1923,11 +2683,11 @@
             },
             {
                 "to": {
-                    "startLine": 103,
+                    "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 6338,
+                    "startOffset": 8754,
                     "endColumn": 45,
-                    "endOffset": 6379
+                    "endOffset": 8795
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1942,11 +2702,11 @@
             },
             {
                 "to": {
-                    "startLine": 104,
+                    "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 6384,
+                    "startOffset": 8800,
                     "endColumn": 42,
-                    "endOffset": 6422
+                    "endOffset": 8838
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1961,11 +2721,11 @@
             },
             {
                 "to": {
-                    "startLine": 105,
+                    "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 6427,
+                    "startOffset": 8843,
                     "endColumn": 52,
-                    "endOffset": 6475
+                    "endOffset": 8891
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1980,11 +2740,11 @@
             },
             {
                 "to": {
-                    "startLine": 106,
+                    "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 6480,
+                    "startOffset": 8896,
                     "endColumn": 57,
-                    "endOffset": 6533
+                    "endOffset": 8949
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -1999,11 +2759,11 @@
             },
             {
                 "to": {
-                    "startLine": 107,
+                    "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 6538,
+                    "startOffset": 8954,
                     "endColumn": 74,
-                    "endOffset": 6608
+                    "endOffset": 9024
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -2018,11 +2778,11 @@
             },
             {
                 "to": {
-                    "startLine": 108,
+                    "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 6613,
+                    "startOffset": 9029,
                     "endColumn": 55,
-                    "endOffset": 6664
+                    "endOffset": 9080
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -2037,11 +2797,11 @@
             },
             {
                 "to": {
-                    "startLine": 109,
+                    "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 6669,
+                    "startOffset": 9085,
                     "endColumn": 54,
-                    "endOffset": 6719
+                    "endOffset": 9135
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -2056,11 +2816,11 @@
             },
             {
                 "to": {
-                    "startLine": 110,
+                    "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 6724,
+                    "startOffset": 9140,
                     "endColumn": 41,
-                    "endOffset": 6761
+                    "endOffset": 9177
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -2075,11 +2835,11 @@
             },
             {
                 "to": {
-                    "startLine": 111,
+                    "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 6766,
+                    "startOffset": 9182,
                     "endColumn": 43,
-                    "endOffset": 6805
+                    "endOffset": 9221
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -2094,11 +2854,11 @@
             },
             {
                 "to": {
-                    "startLine": 112,
+                    "startLine": 152,
                     "startColumn": 4,
-                    "startOffset": 6810,
+                    "startOffset": 9226,
                     "endColumn": 56,
-                    "endOffset": 6862
+                    "endOffset": 9278
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",
@@ -2113,11 +2873,11 @@
             },
             {
                 "to": {
-                    "startLine": 113,
+                    "startLine": 153,
                     "startColumn": 4,
-                    "startOffset": 6867,
+                    "startOffset": 9283,
                     "endColumn": 90,
-                    "endOffset": 6953
+                    "endOffset": 9369
                 },
                 "from": {
                     "file": "D:\\superwechar\\res\\values-ru-rRU\\strings.xml",

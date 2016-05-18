@@ -13,8 +13,6 @@
  */
 package cn.ucai.superwechar.activity;
 
-import java.util.List;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -23,12 +21,14 @@ import android.view.View.OnTouchListener;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMChatRoom;
+
+import java.util.List;
 
 import cn.ucai.superwechar.adapter.ChatRoomAdapter;
 
@@ -42,12 +42,12 @@ public class ChatRoomActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(cn.easemob.chatuidemo.R.layout.fragment_chatroom);
+		setContentView(cn.ucai.superwechar.R.layout.fragment_chatroom);
 
 		instance = this;
 		inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
 		roomList = EMChatManager.getInstance().getAllChatRooms();
-		chatListView = (ListView) findViewById(cn.easemob.chatuidemo.R.id.list);
+		chatListView = (ListView) findViewById(cn.ucai.superwechar.R.id.list);
 		chatRoomAdapter = new ChatRoomAdapter(this, 1, roomList);
 		chatListView.setAdapter(chatRoomAdapter);
 		chatListView.setOnItemClickListener(new OnItemClickListener() {

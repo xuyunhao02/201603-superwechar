@@ -98,10 +98,11 @@ import cn.ucai.superwechar.utils.CommonUtils;
 import cn.ucai.superwechar.utils.ImageUtils;
 import cn.ucai.superwechar.utils.SmileUtils;
 import cn.ucai.superwechar.utils.UserUtils;
+import cn.ucai.superwechar.utils.Utils;
 import cn.ucai.superwechar.widget.ExpandGridView;
 import cn.ucai.superwechar.widget.PasteEditText;
 
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import com.easemob.exceptions.EaseMobException;
 import com.easemob.util.EMLog;
 import com.easemob.util.PathUtil;
@@ -1416,7 +1417,7 @@ public class ChatActivity extends BaseActivity implements OnClickListener, EMEve
 
 						if (filename != "delete_expression") { // 不是删除键，显示表情
 							// 这里用的反射，所以混淆的时候不要混淆SmileUtils这个类
-							Class clz = Class.forName("SmileUtils");
+							Class clz = Class.forName(Utils.getPackageName(getApplicationContext())+".Utils.SmileUtils");
 							Field field = clz.getField(filename);
 							mEditTextContent.append(SmileUtils.getSmiledText(ChatActivity.this,
 									(String) field.get(null)));

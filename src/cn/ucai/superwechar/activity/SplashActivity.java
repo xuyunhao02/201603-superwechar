@@ -11,8 +11,10 @@ import android.widget.TextView;
 
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroupManager;
+
 import cn.ucai.superwechar.DemoHXSDKHelper;
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
+
 
 /**
  * 开屏页

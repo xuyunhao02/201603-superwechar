@@ -63,7 +63,7 @@ public class ChatAllHistoryFragment extends Fragment implements View.OnClickList
 		
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(cn.easemob.chatuidemo.R.layout.fragment_conversation_history, container, false);
+		return inflater.inflate(cn.ucai.superwechar.R.layout.fragment_conversation_history, container, false);
 	}
 
 	@Override
@@ -72,17 +72,17 @@ public class ChatAllHistoryFragment extends Fragment implements View.OnClickList
 		if(savedInstanceState != null && savedInstanceState.getBoolean("isConflict", false))
             return;
 		inputMethodManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-		errorItem = (RelativeLayout) getView().findViewById(cn.easemob.chatuidemo.R.id.rl_error_item);
-		errorText = (TextView) errorItem.findViewById(cn.easemob.chatuidemo.R.id.tv_connect_errormsg);
+		errorItem = (RelativeLayout) getView().findViewById(cn.ucai.superwechar.R.id.rl_error_item);
+		errorText = (TextView) errorItem.findViewById(cn.ucai.superwechar.R.id.tv_connect_errormsg);
 		
 		conversationList.addAll(loadConversationsWithRecentChat());
-		listView = (ListView) getView().findViewById(cn.easemob.chatuidemo.R.id.list);
+		listView = (ListView) getView().findViewById(cn.ucai.superwechar.R.id.list);
 		adapter = new ChatAllHistoryAdapter(getActivity(), 1, conversationList);
 		// 设置adapter
 		listView.setAdapter(adapter);
 				
 		
-		final String st2 = getResources().getString(cn.easemob.chatuidemo.R.string.Cant_chat_with_yourself);
+		final String st2 = getResources().getString(cn.ucai.superwechar.R.string.Cant_chat_with_yourself);
 		listView.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
@@ -127,11 +127,11 @@ public class ChatAllHistoryFragment extends Fragment implements View.OnClickList
 
 		});
 		// 搜索框
-		query = (EditText) getView().findViewById(cn.easemob.chatuidemo.R.id.query);
-		String strSearch = getResources().getString(cn.easemob.chatuidemo.R.string.search);
+		query = (EditText) getView().findViewById(cn.ucai.superwechar.R.id.query);
+		String strSearch = getResources().getString(cn.ucai.superwechar.R.string.search);
 		query.setHint(strSearch);
 		// 搜索框中清除button
-		clearSearch = (ImageButton) getView().findViewById(cn.easemob.chatuidemo.R.id.search_clear);
+		clearSearch = (ImageButton) getView().findViewById(cn.ucai.superwechar.R.id.search_clear);
 		query.addTextChangedListener(new TextWatcher() {
 			public void onTextChanged(CharSequence s, int start, int before, int count) {
 				adapter.getFilter().filter(s);
@@ -169,7 +169,7 @@ public class ChatAllHistoryFragment extends Fragment implements View.OnClickList
 	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		// if(((AdapterContextMenuInfo)menuInfo).position > 0){ m,
-		getActivity().getMenuInflater().inflate(cn.easemob.chatuidemo.R.menu.delete_message, menu);
+		getActivity().getMenuInflater().inflate(cn.ucai.superwechar.R.menu.delete_message, menu);
 		// }
 	}
 
@@ -177,10 +177,10 @@ public class ChatAllHistoryFragment extends Fragment implements View.OnClickList
 	public boolean onContextItemSelected(MenuItem item) {
 		boolean handled = false;
 		boolean deleteMessage = false;
-		if (item.getItemId() == cn.easemob.chatuidemo.R.id.delete_message) {
+		if (item.getItemId() == cn.ucai.superwechar.R.id.delete_message) {
 			deleteMessage = true;
 			handled = true;
-		} else if (item.getItemId() == cn.easemob.chatuidemo.R.id.delete_conversation) {
+		} else if (item.getItemId() == cn.ucai.superwechar.R.id.delete_conversation) {
 			deleteMessage = false;
 			handled = true;
 		}

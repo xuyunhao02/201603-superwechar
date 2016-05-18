@@ -14,19 +14,16 @@
 
 package cn.ucai.superwechar.activity;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -39,6 +36,10 @@ import com.easemob.chat.EMCursorResult;
 import com.easemob.chat.EMGroupInfo;
 import com.easemob.chat.EMGroupManager;
 import com.easemob.exceptions.EaseMobException;
+
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class PublicGroupsActivity extends BaseActivity {
 	private ProgressBar pb;
@@ -60,17 +61,17 @@ public class PublicGroupsActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(com.ucai.chatuidemo.R.layout.activity_public_groups);
+		setContentView(cn.ucai.superwechar.R.layout.activity_public_groups);
 
-		pb = (ProgressBar) findViewById(com.ucai.chatuidemo.R.id.progressBar);
-		listView = (ListView) findViewById(com.ucai.chatuidemo.R.id.list);
+		pb = (ProgressBar) findViewById(cn.ucai.superwechar.R.id.progressBar);
+		listView = (ListView) findViewById(cn.ucai.superwechar.R.id.list);
 		groupsList = new ArrayList<EMGroupInfo>();
-		searchBtn = (Button) findViewById(com.ucai.chatuidemo.R.id.btn_search);
+		searchBtn = (Button) findViewById(cn.ucai.superwechar.R.id.btn_search);
 		
-		View footView = getLayoutInflater().inflate(com.ucai.chatuidemo.R.layout.listview_footer_view, null);
-        footLoadingLayout = (LinearLayout) footView.findViewById(com.ucai.chatuidemo.R.id.loading_layout);
-        footLoadingPB = (ProgressBar)footView.findViewById(com.ucai.chatuidemo.R.id.loading_bar);
-        footLoadingText = (TextView) footView.findViewById(com.ucai.chatuidemo.R.id.loading_text);
+		View footView = getLayoutInflater().inflate(cn.ucai.superwechar.R.layout.listview_footer_view, null);
+        footLoadingLayout = (LinearLayout) footView.findViewById(cn.ucai.superwechar.R.id.loading_layout);
+        footLoadingPB = (ProgressBar)footView.findViewById(cn.ucai.superwechar.R.id.loading_bar);
+        footLoadingText = (TextView) footView.findViewById(cn.ucai.superwechar.R.id.loading_text);
         listView.addFooterView(footView, null, false);
         footLoadingLayout.setVisibility(View.GONE);
         
@@ -184,10 +185,10 @@ public class PublicGroupsActivity extends BaseActivity {
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			if (convertView == null) {
-				convertView = inflater.inflate(com.ucai.chatuidemo.R.layout.row_group, null);
+				convertView = inflater.inflate(cn.ucai.superwechar.R.layout.row_group, null);
 			}
 
-			((TextView) convertView.findViewById(com.ucai.chatuidemo.R.id.name)).setText(getItem(position).getGroupName());
+			((TextView) convertView.findViewById(cn.ucai.superwechar.R.id.name)).setText(getItem(position).getGroupName());
 
 			return convertView;
 		}

@@ -13,15 +13,16 @@
  */
 package cn.ucai.superwechar.adapter;
 
-import java.util.List;
-
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
-import com.ucai.chatuidemo.R;
+import java.util.List;
+
+import cn.ucai.superwechar.R;
+
 
 public class ExpressionAdapter extends ArrayAdapter<String>{
 

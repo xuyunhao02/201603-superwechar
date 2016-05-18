@@ -13,11 +13,6 @@
  */
 package cn.ucai.superwechar.activity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
@@ -32,13 +27,19 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.easemob.EMCallBack;
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroupManager;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import cn.ucai.superwechar.Constant;
 import cn.ucai.superwechar.DemoApplication;
 import cn.ucai.superwechar.DemoHXSDKHelper;
-
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import cn.ucai.superwechar.db.UserDao;
 import cn.ucai.superwechar.domain.User;
 import cn.ucai.superwechar.utils.CommonUtils;

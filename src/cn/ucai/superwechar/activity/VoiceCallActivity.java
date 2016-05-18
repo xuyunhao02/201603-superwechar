@@ -14,8 +14,6 @@
 
 package cn.ucai.superwechar.activity;
 
-import java.util.UUID;
-
 import android.media.AudioManager;
 import android.media.RingtoneManager;
 import android.media.SoundPool;
@@ -35,11 +33,14 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMCallStateChangeListener;
 import com.easemob.chat.EMChatManager;
-import cn.easemob.chatuidemo.R;
 import com.easemob.exceptions.EMServiceNotReadyException;
+
+import java.util.UUID;
+
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 
 /**
  * 语音通话页面

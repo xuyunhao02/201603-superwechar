@@ -33,7 +33,7 @@ import android.widget.Toast;
 import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMGroup;
 import com.easemob.chat.EMGroupManager;
-import com.ucai.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.adapter.GroupAdapter;
 import com.easemob.util.EMLog;
 

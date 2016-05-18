@@ -13,14 +13,6 @@
  */
 package cn.ucai.superwechar.activity;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -49,19 +41,27 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMContactManager;
+import com.easemob.exceptions.EaseMobException;
+import com.easemob.util.EMLog;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
 import cn.ucai.superwechar.Constant;
 import cn.ucai.superwechar.DemoHXSDKHelper;
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.adapter.ContactAdapter;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import cn.ucai.superwechar.db.InviteMessgeDao;
 import cn.ucai.superwechar.db.UserDao;
 import cn.ucai.superwechar.domain.User;
 import cn.ucai.superwechar.widget.Sidebar;
-
-import cn.easemob.chatuidemo.R;
-import com.easemob.exceptions.EaseMobException;
-import com.easemob.util.EMLog;
 
 /**
  * 联系人列表页

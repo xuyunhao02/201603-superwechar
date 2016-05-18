@@ -25,9 +25,10 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.ucai.chatuidemo.R;
-import cn.ucai.superwechar.adapter.ContactAdapter;
 import com.easemob.util.DensityUtil;
+
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.adapter.ContactAdapter;
 
 public class Sidebar extends View{
 	private Paint paint;

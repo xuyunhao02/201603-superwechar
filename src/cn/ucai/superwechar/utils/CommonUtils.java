@@ -13,8 +13,6 @@
  */
 package cn.ucai.superwechar.utils;
 
-import java.util.List;
-
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningTaskInfo;
 import android.content.Context;
@@ -23,9 +21,12 @@ import android.net.NetworkInfo;
 
 import com.easemob.chat.EMMessage;
 import com.easemob.chat.TextMessageBody;
-import cn.ucai.superwechar.Constant;
-import com.ucai.chatuidemo.R;
 import com.easemob.util.EMLog;
+
+import java.util.List;
+
+import cn.ucai.superwechar.Constant;
+import cn.ucai.superwechar.R;
 
 public class CommonUtils {
 	private static final String TAG = "CommonUtils";

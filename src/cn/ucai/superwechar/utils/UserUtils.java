@@ -5,11 +5,13 @@ import android.text.TextUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
-import cn.ucai.superwechar.DemoHXSDKHelper;
-import com.ucai.chatuidemo.R;
-import cn.ucai.superwechar.domain.User;
 import com.squareup.picasso.Picasso;
+
+import cn.ucai.superwechar.DemoHXSDKHelper;
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
+import cn.ucai.superwechar.domain.User;
+
 
 public class UserUtils {
     /**

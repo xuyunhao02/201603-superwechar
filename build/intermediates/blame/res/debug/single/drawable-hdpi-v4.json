@@ -456,12 +456,12 @@
         "source": "D:\\superwechar\\res\\drawable-hdpi\\ee_18.png"
     },
     {
-        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\type_select_btn_nor.png",
-        "source": "D:\\superwechar\\res\\drawable-hdpi\\type_select_btn_nor.png"
-    },
-    {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_7.png",
         "source": "D:\\superwechar\\res\\drawable-hdpi\\ee_7.png"
+    },
+    {
+        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\type_select_btn_nor.png",
+        "source": "D:\\superwechar\\res\\drawable-hdpi\\type_select_btn_nor.png"
     },
     {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatto_bg_normal.9.png",

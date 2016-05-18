@@ -13,10 +13,6 @@
  */
 package cn.ucai.superwechar.activity;
 
-import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
-
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.graphics.Bitmap;
@@ -30,14 +26,19 @@ import android.widget.ProgressBar;
 
 import com.easemob.EMCallBack;
 import com.easemob.chat.EMChatManager;
+import com.easemob.util.EMLog;
+import com.easemob.util.ImageUtils;
+import com.easemob.util.PathUtil;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 import cn.ucai.superwechar.task.LoadLocalBigImgTask;
 import cn.ucai.superwechar.utils.ImageCache;
 import cn.ucai.superwechar.widget.photoview.PhotoView;
 import cn.ucai.superwechar.widget.photoview.PhotoViewAttacher;
-import com.easemob.util.EMLog;
-import com.easemob.util.ImageUtils;
-import com.easemob.util.PathUtil;
+
 
 /**
  * 下载显示大图
@@ -47,7 +48,7 @@ public class ShowBigImage extends BaseActivity {
 	private static final String TAG = "ShowBigImage"; 
 	private ProgressDialog pd;
 	private PhotoView image;
-	private int default_res = cn.easemob.chatuidemo.R.drawable.default_image;
+	private int default_res = cn.ucai.superwechar.R.drawable.default_image;
 	private String localFilePath;
 	private Bitmap bitmap;
 	private boolean isDownloaded;
@@ -56,12 +57,12 @@ public class ShowBigImage extends BaseActivity {
 	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setContentView(cn.easemob.chatuidemo.R.layout.activity_show_big_image);
+		setContentView(cn.ucai.superwechar.R.layout.activity_show_big_image);
 		super.onCreate(savedInstanceState);
 
-		image = (PhotoView) findViewById(cn.easemob.chatuidemo.R.id.image);
-		loadLocalPb = (ProgressBar) findViewById(cn.easemob.chatuidemo.R.id.pb_load_local);
-		default_res = getIntent().getIntExtra("default_image", cn.easemob.chatuidemo.R.drawable.default_avatar);
+		image = (PhotoView) findViewById(cn.ucai.superwechar.R.id.image);
+		loadLocalPb = (ProgressBar) findViewById(cn.ucai.superwechar.R.id.pb_load_local);
+		default_res = getIntent().getIntExtra("default_image", cn.ucai.superwechar.R.drawable.default_avatar);
 		Uri uri = getIntent().getParcelableExtra("uri");
 		String remotepath = getIntent().getExtras().getString("remotepath");
 		String secret = getIntent().getExtras().getString("secret");
@@ -133,7 +134,7 @@ public class ShowBigImage extends BaseActivity {
 	 * @param remoteFilePath
 	 */
 	private void downloadImage(final String remoteFilePath, final Map<String, String> headers) {
-		String str1 = getResources().getString(cn.easemob.chatuidemo.R.string.Download_the_pictures);
+		String str1 = getResources().getString(cn.ucai.superwechar.R.string.Download_the_pictures);
 		pd = new ProgressDialog(this);
 		pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
 		pd.setCanceledOnTouchOutside(false);
@@ -183,7 +184,7 @@ public class ShowBigImage extends BaseActivity {
 
 			public void onProgress(final int progress, String status) {
 				EMLog.d(TAG, "Progress: " + progress);
-				final String str2 = getResources().getString(cn.easemob.chatuidemo.R.string.Download_the_pictures_new);
+				final String str2 = getResources().getString(cn.ucai.superwechar.R.string.Download_the_pictures_new);
 				runOnUiThread(new Runnable() {
 					@Override
 					public void run() {

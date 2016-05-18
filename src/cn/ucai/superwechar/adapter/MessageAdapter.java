@@ -13,18 +13,6 @@
  */
 package cn.ucai.superwechar.adapter;
 
-import java.io.File;
-import java.util.Date;
-import java.util.Hashtable;
-import java.util.Map;
-import java.util.Timer;
-import java.util.TimerTask;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.xmlpull.v1.XmlPullParser;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -53,8 +41,6 @@ import android.widget.Toast;
 
 import com.easemob.EMCallBack;
 import com.easemob.EMError;
-import cn.easemob.chatuidemo.R;
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMConversation;
 import com.easemob.chat.EMMessage;
@@ -68,9 +54,28 @@ import com.easemob.chat.NormalFileMessageBody;
 import com.easemob.chat.TextMessageBody;
 import com.easemob.chat.VideoMessageBody;
 import com.easemob.chat.VoiceMessageBody;
+import com.easemob.exceptions.EaseMobException;
+import com.easemob.util.DensityUtil;
+import com.easemob.util.EMLog;
+import com.easemob.util.FileUtils;
+import com.easemob.util.LatLng;
+import com.easemob.util.TextFormater;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.xmlpull.v1.XmlPullParser;
+
+import java.io.File;
+import java.util.Date;
+import java.util.Hashtable;
+import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
+
 import cn.ucai.superwechar.Constant;
 import cn.ucai.superwechar.DemoHXSDKHelper;
-
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.activity.AlertDialog;
 import cn.ucai.superwechar.activity.BaiduMapActivity;
 import cn.ucai.superwechar.activity.ChatActivity;
@@ -79,6 +84,7 @@ import cn.ucai.superwechar.activity.ShowBigImage;
 import cn.ucai.superwechar.activity.ShowNormalFileActivity;
 import cn.ucai.superwechar.activity.ShowVideoActivity;
 import cn.ucai.superwechar.activity.UserProfileActivity;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import cn.ucai.superwechar.task.LoadImageTask;
 import cn.ucai.superwechar.task.LoadVideoImageTask;
 import cn.ucai.superwechar.utils.DateUtils;
@@ -86,12 +92,6 @@ import cn.ucai.superwechar.utils.ImageCache;
 import cn.ucai.superwechar.utils.ImageUtils;
 import cn.ucai.superwechar.utils.SmileUtils;
 import cn.ucai.superwechar.utils.UserUtils;
-import com.easemob.exceptions.EaseMobException;
-import com.easemob.util.DensityUtil;
-import com.easemob.util.EMLog;
-import com.easemob.util.FileUtils;
-import com.easemob.util.LatLng;
-import com.easemob.util.TextFormater;
 
 public class MessageAdapter extends BaseAdapter{
 

@@ -30,13 +30,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.easemob.EMCallBack;
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMChatOptions;
+
 import cn.ucai.superwechar.Constant;
 import cn.ucai.superwechar.DemoHXSDKHelper;
 import cn.ucai.superwechar.DemoHXSDKModel;
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
+
 
 /**
  * 设置界面

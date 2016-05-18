@@ -13,8 +13,6 @@
  */
 package cn.ucai.superwechar.adapter;
 
-import java.util.List;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.ContentValues;
@@ -32,7 +30,10 @@ import android.widget.Toast;
 
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroupManager;
-import com.ucai.chatuidemo.R;
+
+import java.util.List;
+
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.db.InviteMessgeDao;
 import cn.ucai.superwechar.domain.InviteMessage;
 

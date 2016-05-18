@@ -13,8 +13,6 @@
  */
 package cn.ucai.superwechar.adapter;
 
-import java.io.File;
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
@@ -26,14 +24,17 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMMessage;
 import com.easemob.chat.EMMessage.ChatType;
 import com.easemob.chat.VoiceMessageBody;
-import com.ucai.chatuidemo.R;
-import cn.ucai.superwechar.activity.ChatActivity;
 import com.easemob.util.EMLog;
+
+import java.io.File;
+
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.activity.ChatActivity;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 
 public class VoicePlayClickListener implements View.OnClickListener {
 	private static final String TAG = "VoicePlayClickListener";

@@ -13,8 +13,6 @@
  */
 package cn.ucai.superwechar.activity;
 
-import java.io.File;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -25,11 +23,12 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.easemob.util.ImageUtils;
+
+import java.io.File;
 
 import cn.ucai.superwechar.task.DownloadImageTask;
 import cn.ucai.superwechar.utils.ImageCache;
-
-import com.easemob.util.ImageUtils;
 
 public class AlertDialog extends BaseActivity {
 	private TextView mTextView;
@@ -42,11 +41,11 @@ public class AlertDialog extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(cn.easemob.chatuidemo.R.layout.alert_dialog);
-		mTextView = (TextView) findViewById(cn.easemob.chatuidemo.R.id.title);
-		mButton = (Button) findViewById(cn.easemob.chatuidemo.R.id.btn_cancel);
-		imageView = (ImageView) findViewById(cn.easemob.chatuidemo.R.id.image);
-		editText = (EditText) findViewById(cn.easemob.chatuidemo.R.id.edit);
+		setContentView(cn.ucai.superwechar.R.layout.alert_dialog);
+		mTextView = (TextView) findViewById(cn.ucai.superwechar.R.id.title);
+		mButton = (Button) findViewById(cn.ucai.superwechar.R.id.btn_cancel);
+		imageView = (ImageView) findViewById(cn.ucai.superwechar.R.id.image);
+		editText = (EditText) findViewById(cn.ucai.superwechar.R.id.edit);
 		//提示内容
 		String msg = getIntent().getStringExtra("msg");
 		//提示标题
@@ -64,7 +63,7 @@ public class AlertDialog extends BaseActivity {
 		String edit_text = getIntent().getStringExtra("edit_text");
 		
 		if(msg != null)
-		    ((TextView)findViewById(cn.easemob.chatuidemo.R.id.alert_message)).setText(msg);
+		    ((TextView)findViewById(cn.ucai.superwechar.R.id.alert_message)).setText(msg);
 		if(title != null)
 			mTextView.setText(title);
 		if(isCanceTitle){
@@ -77,7 +76,7 @@ public class AlertDialog extends BaseActivity {
 			if(!new File(path).exists())
 				path = DownloadImageTask.getThumbnailImagePath(path);
 		    imageView.setVisibility(View.VISIBLE);
-		    ((TextView)findViewById(cn.easemob.chatuidemo.R.id.alert_message)).setVisibility(View.GONE);
+		    ((TextView)findViewById(cn.ucai.superwechar.R.id.alert_message)).setVisibility(View.GONE);
 		    if(ImageCache.getInstance().get(path) != null){
 		        imageView.setImageBitmap(ImageCache.getInstance().get(path));
 		    }else{

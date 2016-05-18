@@ -13,18 +13,19 @@
  */
 package cn.ucai.superwechar.utils;
 
+import android.content.Context;
+import android.text.Spannable;
+import android.text.Spannable.Factory;
+import android.text.style.ImageSpan;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import android.content.Context;
-import android.text.Spannable;
-import android.text.Spannable.Factory;
-import android.text.style.ImageSpan;
+import cn.ucai.superwechar.R;
 
-import com.ucai.chatuidemo.R;
 
 public class SmileUtils {
 	public static final String ee_1 = "[):]";

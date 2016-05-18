@@ -9,7 +9,7 @@ import com.easemob.chat.EMCallStateChangeListener;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMMessage;
 import com.easemob.chat.TextMessageBody;
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
 
 import cn.ucai.superwechar.Constant;
 

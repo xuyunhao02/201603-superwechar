@@ -16,15 +16,6 @@
 
 package cn.ucai.superwechar.video.util;
 
-import java.io.File;
-import java.lang.ref.SoftReference;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
-
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -39,7 +30,17 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.util.LruCache;
 import android.util.Log;
 
-import com.ucai.chatuidemo.BuildConfig;
+import java.io.File;
+import java.lang.ref.SoftReference;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+import cn.ucai.superwechar.BuildConfig;
+
 
 /**
  * This class memory caching of bitmaps in conjunction with the

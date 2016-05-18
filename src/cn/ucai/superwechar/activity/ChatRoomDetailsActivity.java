@@ -42,7 +42,7 @@ import com.easemob.chat.EMChatRoom;
 import cn.ucai.superwechar.utils.UserUtils;
 import cn.ucai.superwechar.widget.ExpandGridView;
 
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import com.easemob.util.EMLog;
 import com.easemob.util.NetUtils;
 

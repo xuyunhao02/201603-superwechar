@@ -13,11 +13,6 @@
  */
 package cn.ucai.superwechar.activity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -37,14 +32,20 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.easemob.EMValueCallBack;
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMContact;
+import com.easemob.exceptions.EaseMobException;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import cn.ucai.superwechar.DemoHXSDKHelper;
-import com.ucai.chatuidemo.R;
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import cn.ucai.superwechar.db.UserDao;
 import cn.ucai.superwechar.domain.RobotUser;
-import com.easemob.exceptions.EaseMobException;
 
 public class RobotsActivity extends BaseActivity {
 

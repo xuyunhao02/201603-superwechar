@@ -14,7 +14,7 @@ import com.easemob.EMError;
 import com.easemob.chat.EMGroup;
 import com.easemob.chat.EMGroupManager;
 
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import com.easemob.exceptions.EaseMobException;
 
 public class PublicGroupsSeachActivity extends BaseActivity{

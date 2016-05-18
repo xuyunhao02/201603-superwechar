@@ -13,9 +13,9 @@
  */
 package cn.ucai.superwechar.utils;
 
-import cn.ucai.superwechar.applib.utils.HXPreferenceUtils;
-
 import android.content.Context;
+
+import cn.ucai.superwechar.applib.utils.HXPreferenceUtils;
 
 /**
  * 

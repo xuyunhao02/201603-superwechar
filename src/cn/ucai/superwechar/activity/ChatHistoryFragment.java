@@ -53,7 +53,7 @@ import com.easemob.chat.EMConversation;
 import com.easemob.chat.EMGroup;
 import com.easemob.chat.EMGroupManager;
 import com.easemob.chat.EMMessage;
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
 
 import cn.ucai.superwechar.DemoApplication;
 import cn.ucai.superwechar.DemoHXSDKHelper;

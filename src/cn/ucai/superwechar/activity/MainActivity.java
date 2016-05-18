@@ -58,7 +58,7 @@ import com.easemob.chat.EMMessage.Type;
 import com.easemob.chat.TextMessageBody;
 import cn.ucai.superwechar.Constant;
 import cn.ucai.superwechar.DemoHXSDKHelper;
-import com.ucai.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.db.InviteMessgeDao;
 import cn.ucai.superwechar.db.UserDao;
 import cn.ucai.superwechar.domain.InviteMessage;

@@ -19,7 +19,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
 
 
 public class ExitGroupDialog extends BaseActivity{

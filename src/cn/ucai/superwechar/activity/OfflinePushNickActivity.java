@@ -1,7 +1,7 @@
 package cn.ucai.superwechar.activity;
 
 import com.easemob.chat.EMChatManager;
-import com.ucai.chatuidemo.R;
+import cn.ucai.superwechar.R;
 
 import android.app.ProgressDialog;
 import android.graphics.Color;

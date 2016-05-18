@@ -41,7 +41,7 @@ import android.widget.Toast;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroup;
 import com.easemob.chat.EMGroupManager;
-import com.ucai.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.utils.UserUtils;
 import cn.ucai.superwechar.widget.ExpandGridView;
 import com.easemob.exceptions.EaseMobException;

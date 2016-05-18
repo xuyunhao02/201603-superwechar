@@ -1,8 +1,5 @@
 package cn.ucai.superwechar.activity;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -30,16 +27,20 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ucai.chatuidemo.BuildConfig;
-import com.ucai.chatuidemo.R;
+import com.easemob.util.DateUtils;
+import com.easemob.util.EMLog;
+import com.easemob.util.TextFormater;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.ucai.superwechar.BuildConfig;
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.domain.VideoEntity;
 import cn.ucai.superwechar.video.util.ImageCache;
 import cn.ucai.superwechar.video.util.ImageResizer;
 import cn.ucai.superwechar.video.util.Utils;
 import cn.ucai.superwechar.widget.RecyclingImageView;
-import com.easemob.util.DateUtils;
-import com.easemob.util.EMLog;
-import com.easemob.util.TextFormater;
 
 public class ImageGridFragment extends Fragment implements OnItemClickListener {
 

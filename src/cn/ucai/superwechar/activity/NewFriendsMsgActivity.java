@@ -22,7 +22,7 @@ import android.widget.ListView;
 import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import cn.ucai.superwechar.Constant;
 import cn.ucai.superwechar.DemoHXSDKHelper;
-import com.ucai.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.adapter.NewFriendsMsgAdapter;
 import cn.ucai.superwechar.db.InviteMessgeDao;
 import cn.ucai.superwechar.domain.InviteMessage;

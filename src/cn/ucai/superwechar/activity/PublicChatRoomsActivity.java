@@ -46,7 +46,7 @@ import com.easemob.EMChatRoomChangeListener;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMChatRoom;
 import com.easemob.chat.EMCursorResult;
-import com.ucai.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import com.easemob.exceptions.EaseMobException;
 
 public class PublicChatRoomsActivity extends BaseActivity {

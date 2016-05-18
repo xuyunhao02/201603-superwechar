@@ -35,7 +35,7 @@ import com.easemob.chat.EMGroup;
 import com.easemob.chat.EMGroupManager;
 import cn.ucai.superwechar.Constant;
 import cn.ucai.superwechar.DemoHXSDKHelper;
-import com.ucai.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.adapter.ContactAdapter;
 import cn.ucai.superwechar.domain.User;
 import cn.ucai.superwechar.widget.Sidebar;

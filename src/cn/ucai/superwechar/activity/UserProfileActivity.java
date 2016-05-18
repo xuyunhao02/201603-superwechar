@@ -1,7 +1,5 @@
 package cn.ucai.superwechar.activity;
 
-import java.io.ByteArrayOutputStream;
-
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.ProgressDialog;
@@ -23,13 +21,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.easemob.EMValueCallBack;
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
+import com.squareup.picasso.Picasso;
+
+import java.io.ByteArrayOutputStream;
+
 import cn.ucai.superwechar.DemoHXSDKHelper;
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import cn.ucai.superwechar.domain.User;
 import cn.ucai.superwechar.utils.UserUtils;
-import com.squareup.picasso.Picasso;
 
 public class UserProfileActivity extends BaseActivity implements OnClickListener{
 	

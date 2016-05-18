@@ -140,12 +140,12 @@
         "source": "D:\\superwechar\\res\\drawable-xhdpi\\conversation_selected.png"
     },
     {
-        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\unread_count_bg.9.png",
-        "source": "D:\\superwechar\\res\\drawable-xhdpi\\unread_count_bg.9.png"
-    },
-    {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_send_btn_normal.9.png",
         "source": "D:\\superwechar\\res\\drawable-xhdpi\\chat_send_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\unread_count_bg.9.png",
+        "source": "D:\\superwechar\\res\\drawable-xhdpi\\unread_count_bg.9.png"
     },
     {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\settings_selected.png",
@@ -240,12 +240,12 @@
         "source": "D:\\superwechar\\res\\drawable-xhdpi\\contact_list_normal.png"
     },
     {
-        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_arrow_icon.png",
-        "source": "D:\\superwechar\\res\\drawable-xhdpi\\right_arrow_icon.png"
-    },
-    {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_video_call_receive.png",
         "source": "D:\\superwechar\\res\\drawable-xhdpi\\chat_video_call_receive.png"
+    },
+    {
+        "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_arrow_icon.png",
+        "source": "D:\\superwechar\\res\\drawable-xhdpi\\right_arrow_icon.png"
     },
     {
         "merged": "D:\\superwechar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chatting_biaoqing_btn_enable.png",

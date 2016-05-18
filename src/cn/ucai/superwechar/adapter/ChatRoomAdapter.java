@@ -13,8 +13,6 @@
  */
 package cn.ucai.superwechar.adapter;
 
-import java.util.List;
-
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -29,7 +27,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.easemob.chat.EMChatRoom;
-import com.ucai.chatuidemo.R;
+
+import java.util.List;
+
+import cn.ucai.superwechar.R;
+
 
 public class ChatRoomAdapter extends ArrayAdapter<EMChatRoom> {
 

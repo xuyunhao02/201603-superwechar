@@ -26,9 +26,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMContactManager;
-import cn.easemob.chatuidemo.R;
+
 
 import cn.ucai.superwechar.DemoApplication;
 import cn.ucai.superwechar.DemoHXSDKHelper;

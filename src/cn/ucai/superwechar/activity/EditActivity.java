@@ -1,7 +1,6 @@
 package cn.ucai.superwechar.activity;
 
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -15,13 +14,13 @@ public class EditActivity extends BaseActivity{
 	@Override
 	protected void onCreate(Bundle arg0) {
 		super.onCreate(arg0);
-		setContentView(cn.easemob.chatuidemo.R.layout.activity_edit);
+		setContentView(cn.ucai.superwechar.R.layout.activity_edit);
 		
-		editText = (EditText) findViewById(cn.easemob.chatuidemo.R.id.edittext);
+		editText = (EditText) findViewById(cn.ucai.superwechar.R.id.edittext);
 		String title = getIntent().getStringExtra("title");
 		String data = getIntent().getStringExtra("data");
 		if(title != null)
-			((TextView)findViewById(cn.easemob.chatuidemo.R.id.tv_title)).setText(title);
+			((TextView)findViewById(cn.ucai.superwechar.R.id.tv_title)).setText(title);
 		if(data != null)
 			editText.setText(data);
 		editText.setSelection(editText.length());

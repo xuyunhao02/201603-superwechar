@@ -20,10 +20,11 @@ import android.os.AsyncTask;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import com.ucai.chatuidemo.R;
+import com.easemob.util.ImageUtils;
+
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.utils.ImageCache;
 import cn.ucai.superwechar.widget.photoview.PhotoView;
-import com.easemob.util.ImageUtils;
 
 public class LoadLocalBigImgTask extends AsyncTask<Void, Void, Bitmap> {
 

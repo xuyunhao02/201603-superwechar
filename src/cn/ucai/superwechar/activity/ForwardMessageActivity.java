@@ -16,8 +16,7 @@ package cn.ucai.superwechar.activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-
-import cn.easemob.chatuidemo.R;
+import cn.ucai.superwechar.R;
 import cn.ucai.superwechar.domain.User;
 
 public class ForwardMessageActivity extends PickContactNoCheckboxActivity {

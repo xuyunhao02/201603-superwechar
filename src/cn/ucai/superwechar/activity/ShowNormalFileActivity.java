@@ -1,9 +1,5 @@
 package cn.ucai.superwechar.activity;
 
-import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
-
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.ProgressBar;
@@ -12,8 +8,13 @@ import android.widget.Toast;
 import com.easemob.EMCallBack;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.FileMessageBody;
-import cn.easemob.chatuidemo.R;
 import com.easemob.util.FileUtils;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
+
+import cn.ucai.superwechar.R;
 
 public class ShowNormalFileActivity extends BaseActivity {
 	private ProgressBar progressBar;
