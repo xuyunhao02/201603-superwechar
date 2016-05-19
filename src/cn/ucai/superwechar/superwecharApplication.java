@@ -18,10 +18,11 @@ import android.content.Context;
 
 import com.easemob.EMCallBack;
 
-public class DemoApplication extends Application {
+public class superwecharApplication extends Application {
+	public static String SERVER_ROOT="http://10.0.2.2:8080/SuperWeCharServer/Server";
 
 	public static Context applicationContext;
-	private static DemoApplication instance;
+	private static superwecharApplication instance;
 	// login user name
 	public final String PREF_USERNAME = "username";
 	
@@ -58,7 +59,7 @@ public class DemoApplication extends Application {
         hxSDKHelper.onInit(applicationContext);
 	}
 
-	public static DemoApplication getInstance() {
+	public static superwecharApplication getInstance() {
 		return instance;
 	}
  
