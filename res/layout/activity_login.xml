@@ -6,7 +6,7 @@
     android:orientation="vertical" >
 
     <LinearLayout
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         >
@@ -27,14 +27,14 @@
             android:textSize="20sp"/>
     </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_marginTop="60dp"
         android:layout_width="match_parent"
         android:layout_height="0dip"
-        android:layout_weight="1" >
-
+        android:layout_weight="1"
+        android:orientation="vertical">
         <RelativeLayout
-            android:id="@+id/rl_username"
+            android:id="@+id/rl_username566"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_marginLeft="28dp"
@@ -61,6 +61,98 @@
                 android:singleLine="true"
                 android:textColor="#000"
                 android:textSize="18sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_username"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/iv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/icon_account" />
+
+            <EditText
+                android:id="@+id/nick"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:hint="@string/nick"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_username65"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/iv_username76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/icon_pwd" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:hint="@string/password"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_username2"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="#fff" >
+
+            <ImageView
+                android:id="@+id/iv__sure_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/icon_pwd" />
+
+            <EditText
+                android:id="@+id/sure_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:hint="@string/sure_password"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -80,15 +172,15 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="10dip"
-                android:src="@drawable/icon_pwd" />
+                android:src="@drawable/default_avatar" />
 
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/avatar"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true"
                 android:background="@null"
-                android:hint="@string/password"
+                android:hint="@string/avatar"
                 android:inputType="textPassword"
                 android:paddingLeft="10dip"
                 android:singleLine="true"
@@ -136,7 +228,7 @@
 
         </LinearLayout>
 
-    </RelativeLayout>
+    </LinearLayout>
 
 
 
