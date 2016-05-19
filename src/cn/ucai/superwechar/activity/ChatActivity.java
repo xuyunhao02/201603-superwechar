@@ -86,7 +86,7 @@ import com.easemob.chat.NormalFileMessageBody;
 import com.easemob.chat.TextMessageBody;
 import com.easemob.chat.VideoMessageBody;
 import com.easemob.chat.VoiceMessageBody;
-import cn.ucai.superwechar.DemoApplication;
+import cn.ucai.superwechar.superwecharApplication;
 import cn.ucai.superwechar.DemoHXSDKHelper;
 
 import cn.ucai.superwechar.adapter.ExpressionAdapter;
@@ -858,7 +858,7 @@ public class ChatActivity extends BaseActivity implements OnClickListener, EMEve
 			return;
 		}
 
-		cameraFile = new File(PathUtil.getInstance().getImagePath(), DemoApplication.getInstance().getUserName()
+		cameraFile = new File(PathUtil.getInstance().getImagePath(), superwecharApplication.getInstance().getUserName()
 				+ System.currentTimeMillis() + ".jpg");
 		cameraFile.getParentFile().mkdirs();
 		startActivityForResult(

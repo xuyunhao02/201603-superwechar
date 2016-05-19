@@ -31,7 +31,7 @@ import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMContactManager;
 
 
-import cn.ucai.superwechar.DemoApplication;
+import cn.ucai.superwechar.superwecharApplication;
 import cn.ucai.superwechar.DemoHXSDKHelper;
 
 
@@ -94,7 +94,7 @@ public class AddContactActivity extends BaseActivity{
 	 * @param view
 	 */
 	public void addContact(View view){
-		if(DemoApplication.getInstance().getUserName().equals(nameText.getText().toString())){
+		if(superwecharApplication.getInstance().getUserName().equals(nameText.getText().toString())){
 			String str = getString(R.string.not_add_myself);
 			startActivity(new Intent(this, AlertDialog.class).putExtra("msg", str));
 			return;

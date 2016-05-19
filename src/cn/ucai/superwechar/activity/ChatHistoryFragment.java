@@ -55,7 +55,7 @@ import com.easemob.chat.EMGroupManager;
 import com.easemob.chat.EMMessage;
 import cn.ucai.superwechar.R;
 
-import cn.ucai.superwechar.DemoApplication;
+import cn.ucai.superwechar.superwecharApplication;
 import cn.ucai.superwechar.DemoHXSDKHelper;
 
 import cn.ucai.superwechar.adapter.ChatHistoryAdapter;
@@ -100,7 +100,7 @@ public class ChatHistoryFragment extends Fragment {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				EMContact emContact = adapter.getItem(position);
-				if (adapter.getItem(position).getUsername().equals(DemoApplication.getInstance().getUserName()))
+				if (adapter.getItem(position).getUsername().equals(superwecharApplication.getInstance().getUserName()))
 					Toast.makeText(getActivity(), st, 0).show();
 				else {
 					// 进入聊天页面
