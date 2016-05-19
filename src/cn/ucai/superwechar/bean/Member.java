@@ -9,31 +9,6 @@ public class Member extends User implements java.io.Serializable {
 
 	// Fields
 
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) return true;
-		if (o == null || getClass() != o.getClass()) return false;
-		if (!super.equals(o)) return false;
-
-		Member member = (Member) o;
-
-		if (!mmemberUserId.equals(member.mmemberUserId)) return false;
-		if (!mmemberUserName.equals(member.mmemberUserName)) return false;
-		if (!mmemberGroupId.equals(member.mmemberGroupId)) return false;
-		return mmemberGroupHxid.equals(member.mmemberGroupHxid);
-
-	}
-
-	@Override
-	public int hashCode() {
-		int result = super.hashCode();
-		result = 31 * result + mmemberUserId.hashCode();
-		result = 31 * result + mmemberUserName.hashCode();
-		result = 31 * result + mmemberGroupId.hashCode();
-		result = 31 * result + mmemberGroupHxid.hashCode();
-		return result;
-	}
-
 	/**
 	 * 
 	 */
@@ -104,6 +79,32 @@ public class Member extends User implements java.io.Serializable {
 
 	public Integer getMMemberPermission() {
 		return this.mmemberPermission;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		if (!super.equals(o)) return false;
+
+		Member member = (Member) o;
+
+		return (mmemberUserId.equals(member.mmemberUserId)
+				&& mmemberUserName.equals(member.mmemberUserName)
+				&& mmemberGroupId.equals(member.mmemberGroupId)
+				&& mmemberGroupHxid.equals(member.mmemberGroupHxid));
+
+
+	}
+
+	@Override
+	public int hashCode() {
+		int result = super.hashCode();
+		result = 31 * result + mmemberId.hashCode();
+		result = 31 * result + mmemberUserName.hashCode();
+		result = 31 * result + mmemberGroupId.hashCode();
+		result = 31 * result + mmemberGroupHxid.hashCode();
+		return result;
 	}
 
 	public void setMMemberPermission(Integer MMemberPermission) {
