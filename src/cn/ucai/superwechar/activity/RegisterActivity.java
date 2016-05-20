@@ -13,8 +13,9 @@
  */
 package cn.ucai.superwechar.activity;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
-import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -26,7 +27,9 @@ import com.easemob.EMError;
 import com.easemob.chat.EMChatManager;
 import com.easemob.exceptions.EaseMobException;
 
+import cn.ucai.superwechar.I;
 import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.listener.OnSetAvatarListener;
 import cn.ucai.superwechar.superwecharApplication;
 
 /**
@@ -35,12 +38,17 @@ import cn.ucai.superwechar.superwecharApplication;
  */
 public class RegisterActivity extends BaseActivity {
 	private final static String TAG = RegisterActivity.class.getName();
-	Context mContext;
+	Activity mContext;
 	private EditText userNameEditText;
 	private EditText userNickEditText;
 	private EditText passwordEditText;
 	private EditText confirmPwdEditText;
-	ImageView mImageview;
+	ImageView mIVAvatar;
+	String avatarName;
+	String username;
+	String pwd;
+	String nick;
+	OnSetAvatarListener mOnSetAvatarListener;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -52,15 +60,52 @@ public class RegisterActivity extends BaseActivity {
 	}
 
 	private void setListener() {
+		onLoginClickListener();
 		onSetOnRegisterListener();
+		onSetAvatarListener();
 	}
+
+	private void onLoginClickListener() {
+		findViewById(R.id.btn_login).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		if (resultCode == RESULT_OK) {
+			mOnSetAvatarListener.setAvatar(requestCode, data, mIVAvatar);
+		}
+	}
+
+	private String getAvatarName() {
+		avatarName=System.currentTimeMillis()+"";
+		return avatarName;
+	}
+
+	private void onSetAvatarListener() {
+		findViewById(R.id.rl_avatar).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				mOnSetAvatarListener = new OnSetAvatarListener(mContext,R.id.layout_register,getAvatarName(), I.AVATAR_TYPE_USER_PATH);
+			}
+		});
+
+
+	}
+
+
 
 	private void initView() {
 		userNameEditText = (EditText) findViewById(R.id.username);
 		userNickEditText = (EditText) findViewById(R.id.nick);
 		passwordEditText = (EditText) findViewById(R.id.password);
 		confirmPwdEditText = (EditText) findViewById(R.id.confirm_password);
-		mImageview = (ImageView) findViewById(R.id.iv_default_avatar);
+		mIVAvatar = (ImageView) findViewById(R.id.layout_user_avatar);
 
 	}
 	/**
@@ -70,19 +115,23 @@ public class RegisterActivity extends BaseActivity {
 		findViewById(R.id.btn_register).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				final String username = userNameEditText.getText().toString().trim();
-				final String pwd = passwordEditText.getText().toString().trim();
+				username = userNameEditText.getText().toString().trim();
+				nick = userNickEditText.getText().toString().trim();
+				pwd = passwordEditText.getText().toString().trim();
 				String confirm_pwd = confirmPwdEditText.getText().toString().trim();
-				final String nick = userNickEditText.getText().toString().trim();
-
-
 				if (TextUtils.isEmpty(username)) {
-					Toast.makeText(mContext, getResources().getString(R.string.User_name_cannot_be_empty), Toast.LENGTH_SHORT).show();
 					userNameEditText.requestFocus();
+					userNameEditText.setError(getResources().getString(R.string.User_name_cannot_be_empty));
 					return;
+				} else if (username.matches("[\\w][\\w\\d_]+")) {
+					userNameEditText.requestFocus();
+					userNameEditText.setError(getResources().getString(R.string.User_name_cannot_be_wd));
+				} else if (TextUtils.isEmpty(nick)) {
+					userNickEditText.requestFocus();
+					userNickEditText.setError(getResources().getString(R.string.Nick_name_cannot_be_empty));
 				} else if (TextUtils.isEmpty(pwd)) {
-					Toast.makeText(mContext, getResources().getString(R.string.Password_cannot_be_empty), Toast.LENGTH_SHORT).show();
 					passwordEditText.requestFocus();
+					passwordEditText.setError(getResources().getString(R.string.Password_cannot_be_empty));
 					return;
 				} else if (TextUtils.isEmpty(confirm_pwd)) {
 					Toast.makeText(mContext, getResources().getString(R.string.Confirm_password_cannot_be_empty), Toast.LENGTH_SHORT).show();
