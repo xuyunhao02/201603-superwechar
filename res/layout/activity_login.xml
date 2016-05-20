@@ -2,39 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff"
+    android:background="#eff2f6"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_marginTop="15dp"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        >
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="90dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:src="@drawable/mobile" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="25dp"
-            android:text="超级微信"
-            android:textColor="#"
-            android:textSize="20sp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginTop="60dp"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dip"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="超级微信"
+            android:drawableLeft="@drawable/mobile"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
         <RelativeLayout
-            android:id="@+id/rl_username566"
+            android:id="@+id/rl_username"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_marginLeft="28dp"
@@ -61,98 +52,6 @@
                 android:singleLine="true"
                 android:textColor="#000"
                 android:textSize="18sp" />
-
-        </RelativeLayout>
-        <RelativeLayout
-            android:id="@+id/rl_username"
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:layout_marginLeft="28dp"
-            android:layout_marginRight="28dp"
-            android:background="#fff" >
-
-            <ImageView
-                android:id="@+id/iv_username"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="10dip"
-                android:src="@drawable/icon_account" />
-
-            <EditText
-                android:id="@+id/nick"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_centerVertical="true"
-                android:background="@null"
-                android:hint="@string/nick"
-                android:paddingLeft="10dip"
-                android:singleLine="true"
-                android:textColor="#000"
-                android:textSize="18sp" />
-
-        </RelativeLayout>
-        <RelativeLayout
-            android:id="@+id/rl_username65"
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:layout_marginLeft="28dp"
-            android:layout_marginRight="28dp"
-            android:background="#fff" >
-
-            <ImageView
-                android:id="@+id/iv_username76"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="10dip"
-                android:src="@drawable/icon_pwd" />
-
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_centerVertical="true"
-                android:background="@null"
-                android:hint="@string/password"
-                android:paddingLeft="10dip"
-                android:singleLine="true"
-                android:textColor="#000"
-                android:textSize="18sp" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/rl_username2"
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:layout_marginLeft="28dp"
-            android:layout_marginRight="28dp"
-            android:background="#fff" >
-
-            <ImageView
-                android:id="@+id/iv__sure_username"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="10dip"
-                android:src="@drawable/icon_pwd" />
-
-            <EditText
-                android:id="@+id/sure_password"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_centerVertical="true"
-                android:background="@null"
-                android:hint="@string/sure_password"
-                android:paddingLeft="10dip"
-                android:singleLine="true"
-                android:textColor="#000"
-                android:textSize="18sp" />
-
         </RelativeLayout>
 
         <RelativeLayout
@@ -172,15 +71,15 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="10dip"
-                android:src="@drawable/default_avatar" />
+                android:src="@drawable/icon_pwd" />
 
             <EditText
-                android:id="@+id/avatar"
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true"
                 android:background="@null"
-                android:hint="@string/avatar"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 android:paddingLeft="10dip"
                 android:singleLine="true"
@@ -225,11 +124,18 @@
                 android:text="@string/login"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
-
         </LinearLayout>
-
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="设置服务端的IP地址"/>
     </LinearLayout>
-
-
-
 </LinearLayout>
