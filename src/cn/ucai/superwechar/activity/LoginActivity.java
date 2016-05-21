@@ -354,25 +354,7 @@ public class LoginActivity extends BaseActivity {
 			// ** manually load all local groups and
 			EMGroupManager.getInstance().loadAllGroups();
 			EMChatManager.getInstance().loadAllConversations();
-			final OkHttpUtils utils = new OkHttpUtils<>();
-			utils.url(superwecharApplication.SERVER_ROOT)
-					.addParam(I.KEY_REQUEST,I.REQUEST_DOWNLOAD_AVATAR)
-					.addParam(I.AVATAR_TYPE,currentUsername)
-					.doInBackground(new Callback() {
-						@Override
-						public void onFailure(Request request, IOException e) {
-							Toast.makeText(mActivity, e.getMessage(), Toast.LENGTH_LONG).show();
-						}
-
-						@Override
-						public void onResponse(com.squareup.okhttp.Response response) throws IOException {
-							String avatarPath = I.AVATAR_PATH + I.BACKSLASH + currentUsername + I.AVATAR_SUFFIX_JPG;
-							File file = OnSetAvatarListener.getAvatarFile(mActivity, avatarPath);
-							FileOutputStream fos = null;
-							fos = new FileOutputStream(file);
-							utils.downloadFile(response, file, false);
-						}
-					}).execute(null);
+			downloadAvatar();
 			// 处理好友和群组
 			initializeContacts();
 		} catch (Exception e) {
@@ -387,6 +369,28 @@ public class LoginActivity extends BaseActivity {
 			});
 			return;
 		}
+	}
+
+	private void downloadAvatar() {
+		final OkHttpUtils utils = new OkHttpUtils<>();
+		utils.url(superwecharApplication.SERVER_ROOT)
+				.addParam(I.KEY_REQUEST,I.REQUEST_DOWNLOAD_AVATAR)
+				.addParam(I.AVATAR_TYPE,currentUsername)
+				.doInBackground(new Callback() {
+					@Override
+					public void onFailure(Request request, IOException e) {
+						Toast.makeText(mActivity, e.getMessage(), Toast.LENGTH_LONG).show();
+					}
+
+					@Override
+					public void onResponse(com.squareup.okhttp.Response response) throws IOException {
+						String avatarPath = I.AVATAR_PATH + I.BACKSLASH + currentUsername + I.AVATAR_SUFFIX_JPG;
+						File file = OnSetAvatarListener.getAvatarFile(mActivity, avatarPath);
+						FileOutputStream fos = null;
+						fos = new FileOutputStream(file);
+						utils.downloadFile(response, file, false);
+					}
+				}).execute(null);
 	}
 
 }
