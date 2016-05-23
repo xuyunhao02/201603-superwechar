@@ -58,6 +58,9 @@ import cn.ucai.superwechar.db.UserDao;
 import cn.ucai.superwechar.domain.EMUser;
 import cn.ucai.superwechar.listener.OnSetAvatarListener;
 import cn.ucai.superwechar.superwecharApplication;
+import cn.ucai.superwechar.task.DownloadAllGroupTask;
+import cn.ucai.superwechar.task.DownloadContactListTask;
+import cn.ucai.superwechar.task.DownloadPublicGroupTask;
 import cn.ucai.superwechar.utils.CommonUtils;
 import cn.ucai.superwechar.utils.MD5;
 import cn.ucai.superwechar.utils.Utils;
@@ -81,10 +84,13 @@ public class LoginActivity extends BaseActivity {
 	private Button mbtnLogin;
 	private Button mbtnRegister;
 	Context context;
+	Context mContext;
 	ProgressDialog pd;
 	Activity mActivity;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		mContext = this;
 		super.onCreate(savedInstanceState);
 		// 如果用户名密码都有，直接进入主页面
 		if (DemoHXSDKHelper.getInstance().isLogined()) {
@@ -141,12 +147,8 @@ public class LoginActivity extends BaseActivity {
 
 	}
 
-
-
 	/**
 	 * 登录
-	 *
-	 *
 	 */
 	public void setonLoginListener() {
 		mbtnLogin.setOnClickListener(new View.OnClickListener() {
@@ -239,6 +241,7 @@ public class LoginActivity extends BaseActivity {
 
 	private void showProgressShow() {
 
+
 	}
 
 	private void loginAppServer() {
@@ -283,6 +286,7 @@ public class LoginActivity extends BaseActivity {
 		};
 	}
 
+	//保存用户
 	private void saveUser(User user) {
 		superwecharApplication instance = superwecharApplication.getInstance();
 		instance.setUser(user);
@@ -372,6 +376,7 @@ public class LoginActivity extends BaseActivity {
 	}
 
 	private void downloadAvatar() {
+		//url= http://10.0.2.2:8080/SuperWeChatServer/Server?request=download_avatar&avatarType=
 		final OkHttpUtils utils = new OkHttpUtils<>();
 		utils.url(superwecharApplication.SERVER_ROOT)
 				.addParam(I.KEY_REQUEST,I.REQUEST_DOWNLOAD_AVATAR)
@@ -391,6 +396,14 @@ public class LoginActivity extends BaseActivity {
 						utils.downloadFile(response, file, false);
 					}
 				}).execute(null);
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				new DownloadContactListTask(mContext,currentUsername).execute();
+				new DownloadAllGroupTask(mContext,currentUsername).execute();
+				new DownloadPublicGroupTask(mContext, currentUsername, I.PAGE_ID_DEFAULT, I.PAGE_SIZE_DEAULT).execute();
+			}
+		});
 	}
 
 }
