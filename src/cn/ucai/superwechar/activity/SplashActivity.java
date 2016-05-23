@@ -1,5 +1,6 @@
 package cn.ucai.superwechar.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -13,7 +14,14 @@ import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroupManager;
 
 import cn.ucai.superwechar.DemoHXSDKHelper;
+import cn.ucai.superwechar.I;
 import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.bean.User;
+import cn.ucai.superwechar.db.UserDao;
+import cn.ucai.superwechar.superwecharApplication;
+import cn.ucai.superwechar.task.DownloadAllGroupTask;
+import cn.ucai.superwechar.task.DownloadContactListTask;
+import cn.ucai.superwechar.task.DownloadPublicGroupTask;
 
 
 /**
@@ -23,6 +31,8 @@ import cn.ucai.superwechar.R;
 public class SplashActivity extends BaseActivity {
 	private RelativeLayout rootLayout;
 	private TextView versionText;
+	Context mContext;
+	String currentUsername;
 	
 	private static final int sleepTime = 2000;
 
@@ -30,9 +40,10 @@ public class SplashActivity extends BaseActivity {
 	protected void onCreate(Bundle arg0) {
 		setContentView(R.layout.activity_splash);
 		super.onCreate(arg0);
+		mContext=this;
 
 		rootLayout = (RelativeLayout) findViewById(R.id.splash_root);
-		versionText = (TextView) findViewById(R.id.tv_version);
+		versionText = (TextView) findViewById(R.id.v);
 
 		versionText.setText(getVersion());
 		AlphaAnimation animation = new AlphaAnimation(0.3f, 1.0f);
@@ -44,7 +55,17 @@ public class SplashActivity extends BaseActivity {
 	protected void onStart() {
 		super.onStart();
 
+		if (DemoHXSDKHelper.getInstance().isLogined()) {
+			String username = superwecharApplication.getInstance().getUserName();
+			UserDao dao = new UserDao(mContext);
+			User user = dao.findUserByUserName(username);
+			superwecharApplication.getInstance().setUser(user);
+			new DownloadContactListTask(mContext,currentUsername).execute();
+			new DownloadAllGroupTask(mContext,currentUsername).execute();
+			new DownloadPublicGroupTask(mContext, currentUsername, I.PAGE_ID_DEFAULT, I.PAGE_SIZE_DEAULT).execute();
+		}
 		new Thread(new Runnable() {
+
 			public void run() {
 				if (DemoHXSDKHelper.getInstance().isLogined()) {
 					// ** 免登陆情况 加载所有本地群和会话
