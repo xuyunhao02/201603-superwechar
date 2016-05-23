@@ -1,4 +1,4 @@
-package cn.ucai.superwechar.activity;
+package cn.ucai.superwechar.fragment;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -36,6 +36,7 @@ import java.util.List;
 
 import cn.ucai.superwechar.BuildConfig;
 import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.activity.RecorderVideoActivity;
 import cn.ucai.superwechar.domain.VideoEntity;
 import cn.ucai.superwechar.video.util.ImageCache;
 import cn.ucai.superwechar.video.util.ImageResizer;

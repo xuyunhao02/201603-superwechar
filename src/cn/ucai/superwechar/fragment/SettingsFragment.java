@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package cn.ucai.superwechar.activity;
+package cn.ucai.superwechar.fragment;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -37,6 +37,12 @@ import cn.ucai.superwechar.Constant;
 import cn.ucai.superwechar.DemoHXSDKHelper;
 import cn.ucai.superwechar.DemoHXSDKModel;
 import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.activity.BlacklistActivity;
+import cn.ucai.superwechar.activity.DiagnoseActivity;
+import cn.ucai.superwechar.activity.LoginActivity;
+import cn.ucai.superwechar.activity.MainActivity;
+import cn.ucai.superwechar.activity.OfflinePushNickActivity;
+import cn.ucai.superwechar.activity.UserProfileActivity;
 import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 
 
@@ -359,6 +365,7 @@ public class SettingsFragment extends Fragment implements OnClickListener {
 				getActivity().runOnUiThread(new Runnable() {
 					public void run() {
 						pd.dismiss();
+
 						// 重新显示登陆页面
 						((MainActivity) getActivity()).finish();
 						startActivity(new Intent(getActivity(), LoginActivity.class));

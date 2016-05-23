@@ -11,13 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package cn.ucai.superwechar.activity;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+package cn.ucai.superwechar.fragment;
 
 import android.content.Context;
 import android.content.Intent;
@@ -46,21 +40,28 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMContact;
 import com.easemob.chat.EMConversation;
 import com.easemob.chat.EMGroup;
 import com.easemob.chat.EMGroupManager;
 import com.easemob.chat.EMMessage;
-import cn.ucai.superwechar.R;
 
-import cn.ucai.superwechar.superwecharApplication;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+
 import cn.ucai.superwechar.DemoHXSDKHelper;
-
+import cn.ucai.superwechar.R;
+import cn.ucai.superwechar.activity.ChatActivity;
+import cn.ucai.superwechar.activity.MainActivity;
 import cn.ucai.superwechar.adapter.ChatHistoryAdapter;
+import cn.ucai.superwechar.applib.controller.HXSDKHelper;
 import cn.ucai.superwechar.db.InviteMessgeDao;
-import cn.ucai.superwechar.domain.User;
+import cn.ucai.superwechar.domain.EMUser;
+import cn.ucai.superwechar.superwecharApplication;
 
 /**
  * 聊天记录Fragment
@@ -70,7 +71,7 @@ public class ChatHistoryFragment extends Fragment {
 
 	private InputMethodManager inputMethodManager;
 	private ListView listView;
-	private Map<String, User> contactList;
+	private Map<String, EMUser> contactList;
 	private ChatHistoryAdapter adapter;
 	private EditText query;
 	private ImageButton clearSearch;
@@ -214,10 +215,10 @@ public class ChatHistoryFragment extends Fragment {
 	private List<EMContact> loadUsersWithRecentChat() {
 		List<EMContact> resultList = new ArrayList<EMContact>();
 		//获取有聊天记录的users，不包括陌生人
-		for (User user : contactList.values()) {
-			EMConversation conversation = EMChatManager.getInstance().getConversation(user.getUsername());
+		for (EMUser EMUser : contactList.values()) {
+			EMConversation conversation = EMChatManager.getInstance().getConversation(EMUser.getUsername());
 			if (conversation.getMsgCount() > 0) {
-				resultList.add(user);
+				resultList.add(EMUser);
 			}
 		}
 		for(EMGroup group : EMGroupManager.getInstance().getAllGroups()){
